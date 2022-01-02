@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'WeHostVoIP'
+copyright = '2021, Flavio E. Goncalves'
+author = 'Flavio'
 
 release = '0.1'
 version = '0.1.0'
