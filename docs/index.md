@@ -16,6 +16,11 @@ To create your own ISP you have to access https://uc.wehostvoip.io, select the o
 
 ![image](https://user-images.githubusercontent.com/4958202/147883518-d11dbf4d-4c3b-42e3-9d3c-5924f5d501bf.png)
 
+After choosing signup, you have to add your email for confirmation, a link will be sent to your email to complete the process. 
+
+![image](https://user-images.githubusercontent.com/4958202/147883582-e57b7f2e-481d-40e7-a97e-17dbe2019a73.png)
+
+
 
 *********************
 ISP Configuration
