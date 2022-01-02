@@ -145,8 +145,7 @@ This is probably, one of the most difficult setting in the system, because they 
 
 
 
-Creating new Tenants
-********************
-Tenant Configuration
-********************
+## Creating Tenents ##
+
+## Tenant Configuration ##
 
