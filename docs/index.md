@@ -58,11 +58,57 @@ Add your logos and colors for a customized experience.
 
 ![image](https://user-images.githubusercontent.com/4958202/147884234-434f8b0d-95ab-491c-912d-2b5042c3da14.png)
 
+## ISP Configuration ##
+
+Once you have created your ISP you will have a new menu with all the ISP options like the screen below. The screen shows the ISP hobot.wehostvoip.io.
+
+![image](https://user-images.githubusercontent.com/4958202/147887672-4f84f503-c641-4f78-939d-3421b9c64033.png)
+
+There you have the following options:
+
+* Customers
+* Carriers
+* Tenants
+* Numbers
+* Dial Plans
+* Service Plans
+* Administrators
+
+Let's start with customers.
+
+### Customers ###
+
+In the customer's box you can list, delete and create new customers. To create a new customer fill the form below:
+
+![image](https://user-images.githubusercontent.com/4958202/147887779-9b53689d-6e67-4db2-a8b4-0b38fc52534b.png)
+
+Most of the options are solf-explanatory, however in the end of the form you should specify the service plan explaining how the customer will be charged and the maximum amount of subscribers and concurrent calls are allowed for this specific customer. 
+
+### Carriers ###
+
+In the carrier box you can specifiy your SIP trunk data. It is not the function of this platform select the least cost route. We will simply connect a call to a SIP trunk specified. We cannot use trunks with password, only IP authorization. IP authorization is fairly common on wholesale providers. 
+
+![image](https://user-images.githubusercontent.com/4958202/147887884-67cabb3d-0cd3-4d13-9304-a906fa35f363.png)
+
+In the carrier you can select a series of gateways to complete your calls. To create a gateway, please use the option **create gateways**. 
+
+![image](https://user-images.githubusercontent.com/4958202/147887912-770f7857-dfa0-4db0-a6ec-19a80bf9dc68.png)
+
+Fill the following fields:
+
+* Description - Description of the gateway
+* Address - The IP address and port of the gateway 
+* Strip - Consider any internal number of WeHostVoIP as in the e164 format (country_code+area_code+prefix_number) strip X digits from an internal number before delivering to the gateway
+* Prefix - Add the following numbers before the number
+* From User - Sometimes you have to edit the From Header to use an specific gateway
+* From User Display - Display in the From User
+* Add PAI - Add the header P-Asserted-ID with the content of the From User before using this gateway
+* Attributes - Custom attributes of a gateway
 
 
-*********************
-ISP Configuration
-*****************
+
+
+
 Creating new Tenants
 ********************
 Tenant Configuration
