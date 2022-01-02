@@ -5,10 +5,14 @@ WeHostVoIP documentation!
 
 .. contents:: 
 
-** Architecture **
-
-** Creating your own ISP **
-** ISP Configuration **
-** Creating new Tenants **
-** Tenant Configuration **
+Architecture
+************
+Creating your own ISP
+*********************
+ISP Configuration
+*****************
+Creating new Tenants
+********************
+Tenant Configuration
+********************
 
