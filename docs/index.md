@@ -105,6 +105,8 @@ Fill the following fields:
 * Add PAI - Add the header P-Asserted-ID with the content of the From User before using this gateway
 * Attributes - Custom attributes of a gateway
 
+You can add more than a gateway to the system and it will use the second gateway as a failover to the first one. 
+
 
 
 
