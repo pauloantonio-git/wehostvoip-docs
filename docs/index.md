@@ -107,7 +107,41 @@ Fill the following fields:
 
 You can add more than a gateway to the system and it will use the second gateway as a failover to the first one. 
 
+### Number Inventory ###
 
+The number inventory allows you to add phone numbers assigned to your ISP and make them available for your customers. You can control the phone numbers, also called DIDs (Direct Inward Dial) in your system and have a control of the numbers allocated. You can create, delete and update numbers. 
+
+![image](https://user-images.githubusercontent.com/4958202/147890271-2fdfcfea-2a2c-4a37-ab1f-a946a6bddf80.png)
+
+In this menu you can add new numbers, the main parameters for a number are:
+
+* Number - The number itself in e164 format with the +
+* Source - identifies the source of this number, in the example, allocated from AWS Voice Connector account
+* Type - Local or Toll Free (Changes the billing)
+* Price - The price to be charged from the customer in the end of the month
+* Vendor Price - How much you are paying monthly for this number
+* SMS/VOICE - If the number supports Voice and SMS
+
+### Dial Plans ###
+
+Usually, customers do not dial e164 numbers. They tend to use simplified dialing such as 7 digit dialing or 10 digit dialing. Dial Plans allows us to modify the number dialed and normalize to the e164 format. In the example below we implement the 7 digit dialing.
+
+![image](https://user-images.githubusercontent.com/4958202/147890394-20e40c80-9ed8-4b78-800d-82a1e0b21d04.png)
+
+* Description - A good description of the rule
+* Match Expression - Regular Expression Match for the Number. The expression ^[1-9][0-9]{6}$ will match any number starting with a digit from 1 to 9 followed by a digit from 0 to 9 six times. 
+* Substitution Expression - ([1-9][0-9]{6}). The substitution expression selects a chunk of the number. As we have only one parenthesis, the chun is the number 1 known as \1
+* Replacement Expression - +1_AC\1. Here we add the characters +1 plus the _AC (Area code od the user)_ _(CC is the country code of the user)_ and the chunk \1
+
+Example: 
+
+Suppose the user has country code =+1 and area code 209
+
+If the user dials 2488700, the number will be transformed in +12092488700
+
+The rules will apply sequentially. You can increase the priority of a rule. 
+
+This is probably, one of the most difficult setting in the system, because they require knowledge in regular expressions. 
 
 
 
