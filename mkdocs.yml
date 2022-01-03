@@ -1,4 +1,7 @@
 site_name: WeHostVoIP Docs
 
+nav:
+    - 'index.md'
+
 theme:
     name: readthedocs
