@@ -6,3 +6,4 @@ nav:
 theme:
     name: readthedocs
     locale: en
+    navigation_depth: 4
