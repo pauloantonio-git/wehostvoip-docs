@@ -162,6 +162,8 @@ In the service plan below, you have to fill:
 
 If you don't want to charge a fixed fee per subscriber, you can select a fixed price per service. There are services such as PSTN for outgoing calls, DID for incoming calls, Toll-Free for incoming Toll-Free calls and SIP for calls to SIP legs (WebPhone or Softphone).
 
+### Service Decks ###
+
 In the service deck below, there are charges per DID (incoming leg) and PSTN (outgoing leg), the parameters are:
 
 * Rate: per minute rate in the customer's currency
@@ -197,6 +199,14 @@ Delay 3s
 Billing Duration = 60 seconds (min. duration)
 
 ![image](https://user-images.githubusercontent.com/4958202/147944591-e306a3f3-2537-4e6e-958e-a961a9381147.png)
+
+### Rate Decks ###
+
+Some times it is not possible to have a flat fee for all destinations. If you are allowing International Destinations you may want to have specific prices per destination. In this case you can create a rate deck. Rate decks have precedence over Service Decks. You can specify now a rate per country such as below:
+
+![image](https://user-images.githubusercontent.com/4958202/147946853-5de7775d-29c1-4fce-809b-5b9d02f302a0.png)
+
+Rate decks can be imported from CSV. Just download the model, fill it and import back in the system. 
 
 ## Creating Tenants ##
 
