@@ -4,13 +4,8 @@
 
 [Architecture](architecture.md)\
 [Creating your own ISP](isp.md)\
-[ISP configuration](isp_configuration.md)
+[ISP configuration](isp_configuration.md)\
+[Creating Tenants](tenants.md)\
+[Tenant Configuration](tenant_configuration)
 
-
-
-
-
-## Creating Tenants ##
-
-## Tenant Configuration ##
 
