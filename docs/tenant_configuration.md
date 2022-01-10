@@ -58,7 +58,6 @@ You can dial a group by the group name. Also you can add a group to the Visual D
 It is very easy to create a group and add users to it. 
 
 # Phone Numbers
-
 In the phone numbers menu, you can assign numbers from the number inventory to a user or to a Visual Dialplan. 
 
 ![image](https://user-images.githubusercontent.com/4958202/148850814-e73a47f5-79d2-46cd-9fb2-d3aec742a8a0.png)
@@ -74,17 +73,21 @@ To select an existing number from hte inventory, please choose **Create Number**
 ![image](https://user-images.githubusercontent.com/4958202/148851316-6614c481-a6de-49f2-b822-e02021b0b5e4.png)
 
 # Time Periods
-
 Time periods are very useful to handle calls on and off business hours. You can define the different time periods. These time periods can be used in the Visual Dialplan. 
 
 ![image](https://user-images.githubusercontent.com/4958202/148851494-79458418-8957-4eab-a4a6-e7ef08c42b31.png)
 
 Set a name to your time period and select the ranges you want to support. 
 
-
 # Security Groups
+One of the biggest problems when using an IP PBX is toll fraud. To avoid Toll Fraud, all international destinations are disabled by default. To enable an international destination, you have to include the country or the prefixes in the Security Groups. You can create several different security groups and associate them to a subscriber. 
+
+![image](https://user-images.githubusercontent.com/4958202/148851919-662c65e4-0663-4669-9030-e2079ce5eb5c.png)
+
+To associate to a subscriber, simply select one for the user in the Subscriber tab. 
 
 # Reports
+
 
 # Visual Dialplan
 
