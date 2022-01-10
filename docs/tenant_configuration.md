@@ -88,7 +88,50 @@ To associate to a subscriber, simply select one for the user in the Subscriber t
 
 # Reports
 
+<img src="https://user-images.githubusercontent.com/4958202/148853956-f9cb5383-a17c-46af-89f3-4adf6ac8f075.png" width="800">
 
-# Visual Dialplan
+All calls generate a Call Detail Record. This reporting systema always have two legs. The incoming and the outgoing leg (A and B). The advantage of the dual leg reporting os the possibility to charge even for incoming legs. In the picture above you can see all the fields and filter. 
+
+* Time - Internally all the CDRs are generated using the UTC. In the display the Time will be presented in the Browsers's time zone
+* Caller ID - The Caller ID of the call as describer in the SIP From URI
+* Callee ID - The destination or Callee ID of the call after normalization to the E164 format
+* Leg-Type - Type of the leg SIP (VoIP Leg), DID (Incoming DID number), Toll-Free (Incoming 1-800 number), PSTN (Outgoing number to the PSTN)
+* Direction - Inbound or Outbound
+* Duration - Real Duration of the Call
+* Setup Time - Time to setup a call from the start to the answered state
+* SIP Code - Final code of the call
+* SIP Reason - Final reason of the call
+* Price - Computed Price of the call
+
+Advanced data
+
+Clicking in the "eye" icon in the right side of the report line, you can see the details of the call 
+
+![image](https://user-images.githubusercontent.com/4958202/148854757-6be90503-bfa5-4ac5-b12e-20138d647d8a.png)
+
+There you can see the details on how the call was rated to get to the final price
+
+* Price - Price of the call
+* Credit Taken - Credit removed in this call
+* Billing Duration - Duration for the purposes of billing (Considers the minimum duration, increment and delay)
+* Increment (Increment of the call in seconds)
+* Delay (Start charging after this delay time in seconds)
+* Rate (The rate of a call per minute)
+* Minimum Duration (Minimum duration in seconds)
+* Prepaid (If the call was prepaid)
+* Currency (The currency of the customer)
+
+It is important to understand the concept of minimum duration, increment and delay and hot it affects the billing duration
+
+We are going to express the parameters as Minimum Duration/Increment/Delay, see the examples below:
+
+Real Duration 47s - Billing Duration in 30/6/3 = 48s (30+6+6+6)
+Real Duration 2s - Billing Duration in 30/6/3 = 0s (Below delay)
+Real Duration 10s - Billing Duration in 30/6/3 = 30s (Below minimum duration but above delay)
+Real Duration 10s - Billing Duration in 1/1/0 = 10s (1+9x1)
+
+There are some additional data such as call-id, from-tag and to-tag identifying the SIP dialog. This information can be useful for troubleshooting
 
 # Audios
+
+# Visual Dialplan
