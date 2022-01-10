@@ -51,10 +51,36 @@ The first three fields are self explanatory.
 * Softphone Password - Password for SIP softphone provisioning
 
 # Groups
+You can dial a group by the group name. Also you can add a group to the Visual Dialplan. In the Visual Dialplan you can select if you prefer to dial sequentially or in paralell. groups are similar to queues but much simpler. 
+
+![image](https://user-images.githubusercontent.com/4958202/148850672-b6d78c0c-91cd-4b40-adcb-b39d29afb883.png)
+
+It is very easy to create a group and add users to it. 
 
 # Phone Numbers
 
+In the phone numbers menu, you can assign numbers from the number inventory to a user or to a Visual Dialplan. 
+
+![image](https://user-images.githubusercontent.com/4958202/148850814-e73a47f5-79d2-46cd-9fb2-d3aec742a8a0.png)
+
+You can use the request form to ask for an specific number or you can assign a number to an user. 
+
+To request a number, simply fill the form below with the information required. 
+
+![image](https://user-images.githubusercontent.com/4958202/148850942-e510f50d-00c5-486c-a16d-38ecc4378584.png)
+
+To select an existing number from hte inventory, please choose **Create Number**. There you can select one of the numbers assigned to your tenant. 
+
+![image](https://user-images.githubusercontent.com/4958202/148851316-6614c481-a6de-49f2-b822-e02021b0b5e4.png)
+
 # Time Periods
+
+Time periods are very useful to handle calls on and off business hours. You can define the different time periods. These time periods can be used in the Visual Dialplan. 
+
+![image](https://user-images.githubusercontent.com/4958202/148851494-79458418-8957-4eab-a4a6-e7ef08c42b31.png)
+
+Set a name to your time period and select the ranges you want to support. 
+
 
 # Security Groups
 
