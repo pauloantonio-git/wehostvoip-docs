@@ -107,7 +107,7 @@ Advanced data
 
 Clicking in the "eye" icon in the right side of the report line, you can see the details of the call 
 
-![image](https://user-images.githubusercontent.com/4958202/148854757-6be90503-bfa5-4ac5-b12e-20138d647d8a.png)
+<img src="https://user-images.githubusercontent.com/4958202/148854757-6be90503-bfa5-4ac5-b12e-20138d647d8a.png" width="640">
 
 There you can see the details on how the call was rated to get to the final price
 
