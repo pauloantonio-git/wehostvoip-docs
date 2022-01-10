@@ -37,19 +37,18 @@ The first three fields are self explanatory.
 
 ![image](https://user-images.githubusercontent.com/4958202/148846974-2123d80d-2c6f-475d-8df3-fcb92c7938e6.png)
 
-* CallerID
-* Alias
-* Daterange
-* Visual Plan
-* Security Group
-* Concurrent Calls
-* Timeout
-* Call Group 
-* Pickup Group
-* Call Forward
-* Forward on Busy
-* Forward on No Answer
-* Softphone Password
+* CallerID - Overwrite the current Caller ID, Ex. 12093456789
+* Alias - The extension number to be associated to this user. Useful if you are using hard phones (Ex. 8580)
+* Visual Plan - Visual Plan associated with this user, if you want to handle incoming calls in a special way (special)
+* Security Group - What International destinations are allowed for this user. Very important to prevent fraud (Ex. UK, Canada...)
+* Concurrent Calls - Maximum concurrent calls per user. Please allow at least two for 3-Way Conference and Transfers (ex. 2)
+* Timeout - Timeout for call (ex. 20)
+* Call Group  - Call group in use for call pickup (ex. 1)
+* Pickup Group - Usually the same as the call group (ex. 1)
+* Call Forward - Number to forward unconditionally, use the same format as you dial in the phone (ex. 2345678)
+* Forward on Busy - Forward if busy (ex. 12092345678)
+* Forward on No Answer - Forward if the other side do not attend before the timeout (ex. 12092345678)
+* Softphone Password - Password for SIP softphone provisioning
 
 # Groups
 
