@@ -14,3 +14,16 @@ In the right side press create tenant:
 
 ![image](https://user-images.githubusercontent.com/4958202/148833864-a6bad52c-901d-4248-99fa-6e9d0d1116ac.png)
 
+* Domain - The first field is the most important **Domain**. You can create a domain in your wehostvoip namespace or you can create a verified domain in the domain menu. For Single Sign On and synchronization with Google Apps and Azure AD you will need to have a verified domain. 
+
+* Customer - One customer can have more than one Tenant, so please associate the Customer to the Tenant. 
+
+* Carrier - Select the gateway set to complete the calls for this tenant. The gateway should allow access restricted to the IP od the ISP's SBC. 
+
+* Admins - Administrators of the Tenant, capable to add and remove users
+
+* Dialplan - The dial plan associated with this tenant
+
+* SBCs - The Session Border Controllers associated to this tenant. You will use these SBCs for phone provisioning
+
+* Provisioning - The username and password for the SIP softphone provisioning
