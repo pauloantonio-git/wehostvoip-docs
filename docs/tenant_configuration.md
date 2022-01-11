@@ -134,4 +134,13 @@ There are some additional data such as call-id, from-tag and to-tag identifying 
 
 # Audios
 
+In the Audios Menu, you can upload new Audios. The Default audio is very important. The system uses the Default audio as the Music On Hold and it should not be deleted. The interface is simple and intuitive. The audios generated in the audio menu may be used in the Visual Dial Plan. 
+
+![image](https://user-images.githubusercontent.com/4958202/148940330-e973c785-8671-42f0-a4e5-aca1224cdad1.png)
+
+
 # Visual Dialplan
+The visual dial plan is so sophisticated that we decided to create an specific page for the feature
+
+[visual dialplan](visual_dialplan.md)
+
