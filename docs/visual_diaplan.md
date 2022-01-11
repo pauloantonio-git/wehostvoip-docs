@@ -62,6 +62,13 @@ Interactive Voice Response or IVR is one of the most sophisticated blocks of the
 
 ![image](https://user-images.githubusercontent.com/4958202/148985005-bc03f981-eaf1-45ec-b8fd-bdfa9fcd1382.png)
 
+The main options of the block:
+
+* Auto-Attendant
+* Timeout
+* Type
+* 
+
 
 
 
