@@ -64,10 +64,16 @@ Interactive Voice Response or IVR is one of the most sophisticated blocks of the
 
 The main options of the block:
 
-* Auto-Attendant
-* Timeout
-* Type
-* 
+* Auto-Attendant - If you select auto-attendant, the system will allow you to dial the extension to go directly to the subscriber
+* Timeout - Time to wait for a dtmf input
+* Type - If _Audio Library_ where you can select a pre-recorded audio or text-to-speech if you prefer to generate the text on the fly.
+* Insert Audio - Only if audio library. Select a pre-recorded audio (Formats wav and mp3)
+* Text - Text to be played. Once played, the audio will be cached to avoid regeneration. 
+* Language - Select the languages supported
+* Text-Type - [SSML](https://en.wikipedia.org/wiki/Speech_Synthesis_Markup_Language) Speech Synthesis Markup Language or Text
+* Sentence-Type - Sentence, SSML and Word
+  * word – Indicates a word element in the text.
+  * ssml – Describes a <mark> element from the SSML input text. For more information, see Generating Speech from SSML Documents. 
 
 
 
