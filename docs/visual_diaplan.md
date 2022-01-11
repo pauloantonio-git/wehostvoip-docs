@@ -28,3 +28,40 @@ In the system you can organize the boxes in a logical way to process your incomi
 
 ![image](https://user-images.githubusercontent.com/4958202/148946911-c2860fb9-2f20-4209-8d12-498ae46f7858.png)
 
+There are different types of block to build your visual dialplan. I'm going to list them below, by clincking in the link you will have a more detailed view of each block
+
+* [Start](#start)
+* Group
+* Hangup
+* Ivr
+* Playback
+* Say
+* Subscriber
+* Timerouting
+* Voicemail
+* Visual Plan
+
+# Start
+The block start is just the starting point of the Visual Dial Plan (VDP). It is automatically positioned in the VDP.
+
+![image](https://user-images.githubusercontent.com/4958202/148984484-dcefe8ed-b0b4-42d0-ba6b-64d6507121af.png)
+
+# Group
+Group is similar to a queue. It will ring on all phones at the same time. For serial hunt groups you may use the subscriber block. 
+
+![image](https://user-images.githubusercontent.com/4958202/148984695-ead6e82d-5c46-4362-b197-c6a0fef99939.png)
+
+
+# Hangup
+Disconnect the call.
+
+![image](https://user-images.githubusercontent.com/4958202/148984900-03704c89-71df-4d46-8a95-ac95251bd0e5.png)
+
+# Ivr
+Interactive Voice Response or IVR is one of the most sophisticated blocks of the VDP.
+
+![image](https://user-images.githubusercontent.com/4958202/148985005-bc03f981-eaf1-45ec-b8fd-bdfa9fcd1382.png)
+
+
+
+
