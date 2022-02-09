@@ -5,7 +5,7 @@ WeHostVoIP is organized in a layered architecture. The main components of the sy
 1. Cluster of SIP Proxies
 2. Session and Media Border Controllers
 
-The cluster of SIP proxies are responsible for high availability and the centralization of signaling. The Session and Media Border Controllers are the workhorses of the system. They process all calls and the media relya between them. The SMBC may be installed on premises for maximum privacy and the lowest latency possible. The architecture of the system may be viewed below:
+The cluster of SIP proxies are responsible for high availability and the centralization of signaling. The Session and Media Border Controllers are the workhorses of the system. They process all calls and the media relay between them. The SMBC may be installed on premises for maximum privacy and the lowest latency possible. The architecture of the system may be viewed below:
 
 ![WeHostVoIP_Arquitecture](https://user-images.githubusercontent.com/4958202/147883266-19256a68-8730-4d33-aaba-678e07e7c512.png)
 
