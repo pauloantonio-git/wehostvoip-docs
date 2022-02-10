@@ -9,12 +9,12 @@ There are several steps to start an operation:
 * [WeHostVoIP Concepts](#wehostvoip-concepts) 
 * [Step 1 - Creating a new ISP](#step-1-creating-a-new-isp)
 * [Step 2 - Creating a service plan](#step-2-creating-a-service-plan)
-* Step 3 - Creating a customer
-* Step 4 - Configuring a carrier to complete your calls
-* Step 5 - Creating a Dial Plan
-* Step 6 - Add numbers to the inventory
-* Step 7 - Creating Domains
-* Step 8 - Create your first tenant
+* [Step 3 - Creating a customer](#step-3-creating-a-customer)
+* [Step 4 - Creating a carrier](#step-4-creating-a-carrier)
+* [Step 5 - Creating a Dial Plan](#step-5-creating-a-dialplan)
+* [Step 6 - Add numbers to the inventory](#step-6-add-numbers-to-the-inventory)
+* [Step 7 - Creating Domains](#step-7-creating-domains]
+* [Step 8 - Create your first tenant](#step-8-creating-your-first-tenant)
 * Using existing domains
  
 ## WeHostVoIP Concepts
@@ -85,7 +85,7 @@ For the next two menus below, check the box "No Service Deck", "No Rate Deck"
 
 Then press Create Service Plan, do not leave the page without creating the service plan. 
 
-## Step 3 - Creating a customer
+## Step 3 Creating a customer
 
 After creating a service plan, you can now create a customer. Just press the customer menu in the right side and press create to create a new customer Customer is one of your customers who will buy a PBX service. Before you can create a tenant, you have to create a customer.  
 
@@ -93,7 +93,7 @@ After creating a service plan, you can now create a customer. Just press the cus
 
 There are important things in this menu. The maximum number of subscribers and the maximum number of concurrent calls. You can control how many licenses each user is using from you. You have to select the service plan and all the other fields are self explanatory. 
 
-## Step 4 - Creating a carrier
+## Step 4 Creating a carrier
 
 Now it is time to specify were will you terminate your calls. For this getting started we are going to terminate calls using a test gateway called sipa.flagonc.com. You may test incoming calls registering a phone in the same server. I will provide instructions at the right point. For now let's create a gateway and a carrier. A carrier can have more than one gateway for redundancy, but the system does no route per prefix. This is the function of the ISP softswitch or gateway terminating the calls. We didn't want to have redundancy on these functions. 
 
@@ -109,25 +109,29 @@ After creating the gateway associate it to the carrier and save.
 
 See, very quick, carrier is created
 
-## Step 5 - Dialplan
+## Step 5 Creating a Dialplan
 
 Internally, WeHostVoIP handles all numbers in the [E.164](https://en.wikipedia.org/wiki/E.164) format with "+" in front of the number. There are different ways to dial on each country. Sometimes you need to prefix the number you want to dial with 9 or 0. However everything has to be normalized to E164. We have created some presets for Brazil and US. The dialplan has three very important fields. If you want to create a dialplan you need to understand [regular expressions](https://en.wikipedia.org/wiki/Regular_expression). There is the match expression to match the number, the subs expression to separate the number in chunks using parenthesis and the replacement expression to rebuid the number. You may use two variables _CC (Country Code of the User) and _AC (Area Code of the User)_. If you are in a different country, please let me know and I can create a preset for your country to simplify. For the getting started I'm going to use a preset for US without 9 as a prefix. 
 
 ![wehostvoip-dialplan](https://user-images.githubusercontent.com/4958202/153420608-15c30d48-8547-4067-a6dc-68281a784796.png)
 
-## Step 6 - Number Inventory (Optional)
+## Step 6 Add Numbers to the Inventory
+
+This step is optional
 
 If you have DID numbers or ranges to sell you have to specify them in your ISP. Your users will be able to allocate DIDs for their own users. 
 
 ![image](https://user-images.githubusercontent.com/4958202/153417573-58a74558-add1-4e62-8fc1-7b520cf6466b.png)
 
-## Step 7 - Creating Domains (Optional)
+## Step 7 Creating Domains
+
+This step is optional
 
 You may create directly domain below your namespace such as customer1.gettingstarted.com. For this you don't need to create a domain. However if your customer already uses Google Apps or Azure AD with an specific domain you can add their domains here. You have to verify the ownership of the domain by adding a TXT in a domain server. 
 
 ![image](https://user-images.githubusercontent.com/4958202/153421332-cc46251c-d353-4ee6-8576-e02af0372a49.png)
 
-## Step 8 - Creating your first tenant
+## Step 8 Creating your first tenant
 
 Most of the configuration you have done until now are made only once, except for customers. After this configuration you are now able to create a tenant to server your customers. 
 
@@ -137,7 +141,7 @@ To create a tenant is very simple, you start by adding a domain. It maybe a subd
 
 After specifying the domain, you have to specify the Customer, Carrier, Admins, Dialplan and session border controllers. It is a very quick form. Each ISP should negotiate its own SBC for operations depending on the expected traffic. For demo purposes you can use demo.wehostvoip.io in th eport 61110. This SBC limits the duration of the calls in 30 seconds and calls per second to 1 call each 30s. It is enough to test and see if WeHostVoIP fits your business model. 
 
-## Step 9 - Accessing your tenant 
+## Step 9 Accessing your tenant 
 
 Click on the view button in the end of the row (clode to the delete and edit buttons). You will get to the Tenant Interface like below. 
 
@@ -147,7 +151,7 @@ Once the login is completed, you will access the interface below.
 
 ![image](https://user-images.githubusercontent.com/4958202/153426266-4b21a276-114a-404f-bfb6-1f55a32618d7.png)
 
-## Step 10 - Creating subscribers
+## Step 10 Creating subscribers
 
 Now, in the subscriber table, let's create two users, alice and bob. There are many fields to add in a subscriber. Let's go through them
 
