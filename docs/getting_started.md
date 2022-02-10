@@ -6,9 +6,9 @@ Following this guide, you will be able to start a Cloud PBX operation in a few h
 
 There are several steps to start an operation:
 
-* WeHostVoIP Concepts
-* Step 1 - Creating a new ISP
-* Step 2 - Create a service plan
+* [WeHostVoIP Concepts](#wehostvoip-concepts) 
+* [Step 1 - Creating a new ISP](#step-1-creating-a-new-isp)
+* [Step 2 - Creating a service plan](#step-2-creating-a-service-plan)
 * Step 3 - Creating a customer
 * Step 4 - Configuring a carrier to complete your calls
 * Step 5 - Creating a Dial Plan
@@ -37,7 +37,7 @@ Finally the phone interface is an WebRTC where you can make or receive calls. Th
 
 ![image](https://user-images.githubusercontent.com/4958202/153306639-b3a04b17-c07e-49af-bb0d-7898f25b1499.png)
 
-## Step 1 - Creating a new ISP (Internet Service Provider)
+## Step 1 Creating a new ISP
 
 To create a new ISP, you have to start the signup process in the portal uc.wehostvoip.io
 
@@ -69,7 +69,7 @@ Once you have finished you will be able to see the ISP interface
 
 ![isf-after-onboarding](https://user-images.githubusercontent.com/4958202/153399595-0cd0dd4a-94a8-4167-8aa7-e2ab0adcd66c.png)
 
-## Step 2 - Creating a service plan
+## Step 2 Creating a service plan
 
 The service plan is the heart of the system. You will be able to chage your customers using a prepaid or postpaid system. You can start with something as simple as charge per month and later create more sophisticated plans to charge per leg or per prefix. I the getting started we are going to create simple plan to charge only a monthly fee. 
 
