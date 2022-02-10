@@ -82,6 +82,10 @@ For the next two menus below, check the box "No Service Deck", "No Rate Deck"
 
 Then press Create Service Plan, do not leave the page without creating the service plan. 
 
+## Step 3 - Creating a customer
+
+After creating a service plan, you can now create a customer. Just press the customer menu in the right side and press create to create a new customer Customer is one of your customers who will buy a PBX service. Before you can create a tenant, you have to create a customer.   
+
 
 
 
