@@ -176,6 +176,10 @@ Now, in the subscriber table, let's create two users, alice and bob. There are m
 
 ![image](https://user-images.githubusercontent.com/4958202/153440169-18a7170a-763a-470e-b725-1dceda01489a.png)
 
+**Don't forget to add a password for SIP and for the Softphone, write down the password you will need the password ahead**
+
+## Step 11 - Registering Alice in the WebPhone
+
 
 
 
