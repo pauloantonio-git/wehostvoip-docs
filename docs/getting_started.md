@@ -7,9 +7,10 @@ Following this guide, you will be able to start a Cloud PBX operation in a few h
 There are several steps to start an operation:
 
 * WeHostVoIP Concepts
-* Creating a new ISP
-* Configuring a carrier to complete your calls
-* Create a service plan
+* Step 1 - Creating a new ISP
+* Step 2 - Create a service plan
+* Step 3 - Creating a customer
+* Step 4 - Configuring a carrier to complete your calls
 * Create Direct Inward Dial Numbers for your customers
 * Create domains for your users
 * Using existing domains
@@ -28,7 +29,7 @@ In the ISP console (https://uc.wehostvoip.io) you will configure the master plan
 
 The tenant console is really the PBX interface, you will create one or many Tenants per customer. There are no limits on the number of tenants created. 
 
-![image](https://user-images.githubusercontent.com/4958202/153306442-ad897de4-3755-4ad5-bf1e-c88bbf83468d.png)
+![wehostvoip-subscribers](https://user-images.githubusercontent.com/4958202/153419253-5f00900a-9c67-4615-994c-d8b091ced713.png)
 
 Finally the phone interface is an WebRTC where you can make or receive calls. The system also supports almost any SIP phone or device.
 
@@ -108,6 +109,10 @@ See, very quick, carrier is created
 
 ## Step 5 - Dialplan
 
+Internally, WeHostVoIP handles all numbers in the [E.164](https://en.wikipedia.org/wiki/E.164) format with "+" in front of the number. There are different ways to dial on each country. Sometimes you need to prefix the number you want to dial with 9 or 0. However everything has to be normalized to E164. We have created some presets for Brazil and US. The dialplan has three very important fields. If you want to create a dialplan you need to understand [regular expressions](https://en.wikipedia.org/wiki/Regular_expression). There is the match expression to match the number, the subs expression to separate the number in chunks using parenthesis and the replacement expression to rebuid the number. You may use two variables _CC (Country Code of the User) and _AC (Area Code of the User)_. If you are in a different country, please let me know and I can create a preset for your country to simplify. For the getting started I'm going to use a preset for US without 9 as a prefix. 
+
+![wehostvoip-dialplan](https://user-images.githubusercontent.com/4958202/153420608-15c30d48-8547-4067-a6dc-68281a784796.png)
+
 ## Step 6 - Number Inventory (Optional)
 
 If you have DID numbers or ranges to sell you have to specify them in your ISP. Your users will be able to allocate DIDs for their own users. 
@@ -116,6 +121,9 @@ If you have DID numbers or ranges to sell you have to specify them in your ISP. 
 
 ## Step 7 - Creating Domains (Optional)
 
+You may create directly domain below your namespace such as customer1.gettingstarted.com. For this you don't need to create a domain. However if your customer already uses Google Apps or Azure AD with an specific domain you can add their domains here. You have to verify the ownership of the domain by adding a TXT in a domain server. 
+
+![image](https://user-images.githubusercontent.com/4958202/153421332-cc46251c-d353-4ee6-8576-e02af0372a49.png)
 
 
 
