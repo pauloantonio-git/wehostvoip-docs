@@ -24,7 +24,7 @@ Phone Console - https://phone.wehostvoip.io
 
 In the ISP console (https://uc.wehostvoip.io) you will configure the master plans for the Cloud PBX provider. You are going to attach carriers, create service plans, adjust normalization rules for numbers and many tasks you will have to do only once. 
 
-![image](https://user-images.githubusercontent.com/4958202/153306038-d250127c-46ea-49cd-a58a-a3e99d655fa7.png)
+![wehostvoip-isp](https://user-images.githubusercontent.com/4958202/153396697-236b7908-6c70-4fe8-8357-c304e5be5841.png)
 
 The tenant console is really the PBX interface, you will create one or many Tenants per customer. There are no limits on the number of tenants created. 
 
@@ -51,6 +51,40 @@ Now you have to go to your e-mail and click in the e-mail confirmation link. Onc
 Provide a Full Name and password for the username and press next
 
 ![wehostvoip-2nd-onboarding](https://user-images.githubusercontent.com/4958202/153396350-df093e03-9dbd-45a9-b795-f84bdf99c170.png)
+
+Now, there are important parameters here. The most important parameter is the namespace. When you start using wehostvoip, to login in the system you will need your own namespace. Please choose a namespace and write down the name you will need this parameter in the future. Also important is the currency. Fill the rest of the information and press next.
+
+![wehostvoip-3rd-onboarding](https://user-images.githubusercontent.com/4958202/153397395-95d4c7e1-645b-4c67-a409-0db6f95fd563.png)
+
+Just fill your contact data and press next
+
+![wehostvoip-4th-onboarding](https://user-images.githubusercontent.com/4958202/153398003-c74bfb17-f734-445d-ad53-459d3525d466.png)
+
+Now you can customize your logos and colors. Afeter doing it, press validate to check if you have filled all the required data. 
+
+Once you have finished you will be able to see the ISP interface
+
+![isf-after-onboarding](https://user-images.githubusercontent.com/4958202/153399595-0cd0dd4a-94a8-4167-8aa7-e2ab0adcd66c.png)
+
+## Step 2 - Creating a service plan
+
+The service plan is the heart of the system. You will be able to chage your customers using a prepaid or postpaid system. You can start with something as simple as charge per month and later create more sophisticated plans to charge per leg or per prefix. I the getting started we are going to create simple plan to charge only a monthly fee. 
+
+Press, create service plan to start creating a plan. 
+
+Name your first service plan Default. 
+
+![wehostvoip-service-plan-1](https://user-images.githubusercontent.com/4958202/153400844-7030dc71-5e6b-4dc4-ad17-34096eb36f41.png)
+
+For the next two menus below, check the box "No Service Deck", "No Rate Deck"
+
+![service-plan-2](https://user-images.githubusercontent.com/4958202/153401140-0272f11b-7129-42e2-917a-b4545615d1b3.png)
+
+Then press Create Service Plan, do not leave the page without creating the service plan. 
+
+
+
+
 
 
 
