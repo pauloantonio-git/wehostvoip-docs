@@ -84,7 +84,39 @@ Then press Create Service Plan, do not leave the page without creating the servi
 
 ## Step 3 - Creating a customer
 
-After creating a service plan, you can now create a customer. Just press the customer menu in the right side and press create to create a new customer Customer is one of your customers who will buy a PBX service. Before you can create a tenant, you have to create a customer.   
+After creating a service plan, you can now create a customer. Just press the customer menu in the right side and press create to create a new customer Customer is one of your customers who will buy a PBX service. Before you can create a tenant, you have to create a customer.  
+
+![wehostvoip-customer-01](https://user-images.githubusercontent.com/4958202/153402853-53436e6e-0d48-4e10-a6c8-e13993d0be3b.png)
+
+There are important things in this menu. The maximum number of subscribers and the maximum number of concurrent calls. You can control how many licenses each user is using from you. You have to select the service plan and all the other fields are self explanatory. 
+
+## Step 4 - Creating a carrier
+
+Now it is time to specify were will you terminate your calls. For this getting started we are going to terminate calls using a test gateway called sipa.flagonc.com. You may test incoming calls registering a phone in the same server. I will provide instructions at the right point. For now let's create a gateway and a carrier. A carrier can have more than one gateway for redundancy, but the system does no route per prefix. This is the function of the ISP softswitch or gateway terminating the calls. We didn't want to have redundancy on these functions. 
+
+When creating a carrier, the first step is to create the gateway
+
+![image](https://user-images.githubusercontent.com/4958202/153416460-90f10b2b-5adf-4121-afb3-324f10d3a225.png)
+
+It really depends on carrier terminating your calls. You may have to strip some numbers or prefix numbers before you deliver to your carrier. The gateway configuration allows you to do it. The authentication has to be per IP, we do not send digest credentials based on username and password. 
+
+After creating the gateway associate it to the carrier and save. 
+
+![image](https://user-images.githubusercontent.com/4958202/153416615-365c5086-f762-48a5-8de5-66a15547cbe9.png)
+
+See, very quick, carrier is created
+
+## Step 5 - Dialplan
+
+## Step 6 - Number Inventory (Optional)
+
+If you have DID numbers or ranges to sell you have to specify them in your ISP. Your users will be able to allocate DIDs for their own users. 
+
+![image](https://user-images.githubusercontent.com/4958202/153417573-58a74558-add1-4e62-8fc1-7b520cf6466b.png)
+
+## Step 7 - Creating Domains (Optional)
+
+
 
 
 
