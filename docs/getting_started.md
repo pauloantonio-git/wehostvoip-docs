@@ -13,9 +13,10 @@ There are several steps to start an operation:
 * [Step 4 - Creating a carrier](#step-4-creating-a-carrier)
 * [Step 5 - Creating a Dial Plan](#step-5-creating-a-dialplan)
 * [Step 6 - Add numbers to the inventory](#step-6-add-numbers-to-the-inventory)
-* [Step 7 - Creating Domains](#step-7-creating-domains]
+* [Step 7 - Creating Domains](#step-7-creating-domains)
 * [Step 8 - Create your first tenant](#step-8-creating-your-first-tenant)
-* Using existing domains
+* [Step 9 - Accessing your tenant](#step-9-accessing-your-tenant)
+* [Step 10 - Creating subscribers](#step-10-creating-subscribers)
  
 ## WeHostVoIP Concepts
 
