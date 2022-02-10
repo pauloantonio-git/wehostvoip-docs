@@ -11,8 +11,10 @@ There are several steps to start an operation:
 * Step 2 - Create a service plan
 * Step 3 - Creating a customer
 * Step 4 - Configuring a carrier to complete your calls
-* Create Direct Inward Dial Numbers for your customers
-* Create domains for your users
+* Step 5 - Creating a Dial Plan
+* Step 6 - Add numbers to the inventory
+* Step 7 - Creating Domains
+* Step 8 - Create your first tenant
 * Using existing domains
  
 ## WeHostVoIP Concepts
@@ -124,6 +126,31 @@ If you have DID numbers or ranges to sell you have to specify them in your ISP. 
 You may create directly domain below your namespace such as customer1.gettingstarted.com. For this you don't need to create a domain. However if your customer already uses Google Apps or Azure AD with an specific domain you can add their domains here. You have to verify the ownership of the domain by adding a TXT in a domain server. 
 
 ![image](https://user-images.githubusercontent.com/4958202/153421332-cc46251c-d353-4ee6-8576-e02af0372a49.png)
+
+## Step 8 - Creating your first tenant
+
+Most of the configuration you have done until now are made only once, except for customers. After this configuration you are now able to create a tenant to server your customers. 
+
+To create a tenant is very simple, you start by adding a domain. It maybe a subdomain of your namespace or the customer domain previously created and verified. Let's use here customer1 as the domain. 
+
+![image](https://user-images.githubusercontent.com/4958202/153424359-8802e406-cc17-4cbf-80a2-57f716180184.png)
+
+After specifying the domain, you have to specify the Customer, Carrier, Admins, Dialplan and session border controllers. It is a very quick form. Each ISP should negotiate its own SBC for operations depending on the expected traffic. For demo purposes you can use demo.wehostvoip.io in th eport 61110. This SBC limits the duration of the calls in 30 seconds and calls per second to 1 call each 30s. It is enough to test and see if WeHostVoIP fits your business model. 
+
+## Step 9 - Accessing your tenant 
+
+Click on the view button in the end of the row (clode to the delete and edit buttons). You will get to the Tenant Interface like below. 
+
+![wehostvoip-tenant-login](https://user-images.githubusercontent.com/4958202/153426130-c153085f-194c-4adb-8391-a01bf98be08d.png)
+
+Once the login is completed, you will access the interface below. 
+
+![image](https://user-images.githubusercontent.com/4958202/153426266-4b21a276-114a-404f-bfb6-1f55a32618d7.png)
+
+## Step 10 - Creating subscribers
+
+
+
 
 
 
