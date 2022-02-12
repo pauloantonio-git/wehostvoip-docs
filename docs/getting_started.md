@@ -17,7 +17,14 @@ There are several steps to start an operation:
 * [Step 8 - Create your first tenant](#step-8-creating-your-first-tenant)
 * [Step 9 - Accessing your tenant](#step-9-accessing-your-tenant)
 * [Step 10 - Creating subscribers](#step-10-creating-subscribers)
- 
+* [Step 11 - Registering Alice in the WebPhone](#step-11-registering-alice-in-the-webphone)
+* [Step 12 - Registering Bob in the Softphone](#step-12-registering-bob-in-the-softphone)
+* [Step 13 - Make a call between phones](#step-13-make-a-call-between-phones)
+* [Step 14 -Add a country in the security group](#step-14-add-a-country-in-the-security-group)
+* [Step 15 - Make a call to an external destination](#step-15-make-a-call-to-an-external-destination)
+* [Step 16 - Testing incoming calls](#step-16-testing-incoming-calls)
+
+
 ## WeHostVoIP Concepts
 
 There are three different consoles for WeVoIP.
@@ -178,7 +185,7 @@ Now, in the subscriber table, let's create two users, Alice and Bob. There are m
 
 **Don't forget to add a password for SIP and for the Softphone, write down the password you will need the password ahead**
 
-## Step 11 - Registering Alice in the WebPhone
+## Step 11 Registering Alice in the WebPhone
 
 To register Alice in the webphone, just go to the url https://phone.wehostvoip.io and add the name and password. At this point we still cannot log with Google or Azure. To do it it is required to register and verify a domain. You will only be able to log with Google or AzureAd if you have a synchronized domain. We have a special chapter for this. 
 
@@ -186,7 +193,7 @@ To register Alice in the webphone, just go to the url https://phone.wehostvoip.i
 
 Once you login you should see a green circle in the upper right hand corner.
 
-## Step 12 - Registering Bob in the Softphone
+## Step 12 Registering Bob in the Softphone
 
 This is the free client for WeHostVoIP. If you prefer to use a full Unified Communication phone, contact us for an upgrade plan, as the UC phone is charged separately. Branding a new UC phone takes a lot of steps including the registration for a DUNS number and publishing on Apple and Google Store. These features are not covered in the Getting Started. 
 
@@ -196,20 +203,21 @@ After the installation, log in using the username and **softphone** password.
 
 ![image](https://user-images.githubusercontent.com/4958202/153725448-8a30f3bf-c243-46b4-8fd7-d2bd97c47749.png)
 
-## Step 13 - Make a call from Alice to Bob and from Bob to Alice to see if everything is working fine. 
+## Step 13 Make a call between phones
 
-## Step 14 - To make calls to the PSTN you have to add the authorized prefixes to the security group.
+Just call Alice and Bob by their names. You may use also their aliases alice (1000) and bob (1001). Dial 1000 from bob and 1001 from alice to test the dialing. 
+
+## Step 14 Add a country in the security group
 
 To avoid fraud, subscribers are not allowed by default to make PSTN calls. You will have to authorize the countries or prefixes to enable outbound calls. We've made this process very easy. In our cas we are adding USA. When you select USA it selects all area codes from the NANPA belonging to the USA and does not load Caribbean destinations frequently used for fraud. 
 
 ![image](https://user-images.githubusercontent.com/4958202/153725725-aba5e01b-2a59-4c56-8357-9b3f7391933b.png)
 
-
-## Step 15 - Make a call to an external destination to make sure it is working 
+## Step 15 Make a call to an external destination
 
 Dial 2092488700, you should receive a funny message. As we are using the test gateway your call is not going to the PSTN. If you want your call to go to the PSTN you have to add your own carrier. 
 
-## Step 16 - Testing incoming calls
+## Step 16 Testing incoming calls
 
 To test an incoming call is a little harder. If you have added a real carrier and you have real dids, the process is very easy. However for the purposes of this Getting Started Guide we are going to use a softphone connected to the test gateway to connect to our SBC demo.wehostvoip.io. 
 
