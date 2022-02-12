@@ -180,6 +180,15 @@ Now, in the subscriber table, let's create two users, alice and bob. There are m
 
 ## Step 11 - Registering Alice in the WebPhone
 
+To register Alice in the webphone, just go to the url https://phone.wehostvoip.io and add the name and password. At this point we still cannot log with Google or Azure. To do it it is required to register and verify a domain. You will only be able to log with Google or AzureAd of you have a synchronized domain. We have an special chapter for this. 
+
+![image](https://user-images.githubusercontent.com/4958202/153724987-44d9ba93-87b1-44d6-b186-f5059bfdb3d2.png)
+
+Once you login you should see a green circle in the upper right hand corner.
+
+## Step 12 - Registering Bob in the Softphone
+
+
 
 
 
