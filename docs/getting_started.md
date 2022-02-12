@@ -188,6 +188,35 @@ Once you login you should see a green circle in the upper right hand corner.
 
 ## Step 12 - Registering Bob in the Softphone
 
+This is the free client for WeHostVoIP. If you prefer to use a full Unified Communication phone, contact us for an upgrade plan, as the UC phone is charged separately. Branding a new UC phone takes a lot of steps including the registration for a DUNS number and publishing on Apple and Google Store. These features are not covered in the Getting Started. 
+
+You can only use the softphone if you are using windows 7 or later. Download the softphone from https://uc.wehostvoip.io/downloads/wevoip-3.20.7002.exe, extract and run the file 
+
+After the installation, log in using the username and **softphone** password. 
+
+![image](https://user-images.githubusercontent.com/4958202/153725448-8a30f3bf-c243-46b4-8fd7-d2bd97c47749.png)
+
+## Step 13 - Make a call from Alice to Bob and from Bob to Alice to see if everything is working fine. 
+
+## Step 14 - To make calls to the PSTN you have to add the authorized prefixes to the security group.
+
+To avoid fraud, subscribers are not allowed by default to make PSTN calls. You will have to authorize the countries or prefixes to enable outbound calls. We've made this process very easy. In our cas we are adding USA. When you select USA it selects all area codes from the NANPA belonging to USA and do not load caribean destinations frequently used for fraud. 
+
+![image](https://user-images.githubusercontent.com/4958202/153725725-aba5e01b-2a59-4c56-8357-9b3f7391933b.png)
+
+
+## Step 15 - Make a call to an external destination to make sure it is working 
+
+Dial 2092488700, you should receive a funny message. As we are using the test gateway your call is not going to the PSTN. If you want your call to go to the PSTN you have to add your own carrier. 
+
+## Step 16 - Testing incoming calls
+
+To test an incoming call is a little harder. If you have added a real carrier and you have real dids, the process is very easy. However for the purposes of this Getting Started Guide we are going to use a softphone connected to test gateway to connect to our SBC demo.wehostvoip.io. 
+
+
+
+
+
 
 
 
