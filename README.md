@@ -1,5 +1,6 @@
-# wehostvoip-docs
+# WeHostVoIP Documentation
 
-WeHostVoIP Documentation
+This is the documentation project for WeHostVoIP. 
 
-Documentation project for WeHostVoIP Cloud PBX
+The place to start is our [Getting Started with WeHostVoIP](mkdocs/gettingstarted.md)
+
