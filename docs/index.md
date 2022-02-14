@@ -1,4 +1,4 @@
-# Getting Started
+# Index
 
 This is the documentation project for WeHostVoIP. 
 
