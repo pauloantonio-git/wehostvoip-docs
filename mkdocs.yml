@@ -1,6 +1,6 @@
 site_name: WeHostVoIP Docs
 
 theme:
-    name: mkdocs
+    name: readthedocs
     locale: en
-    navigation_depth: 4
+    navigation_depth: 1
