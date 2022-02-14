@@ -1,5 +1,3 @@
-# Index
-
 This is the documentation project for WeHostVoIP. 
 
 The order to check the documentation is:
