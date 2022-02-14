@@ -32,4 +32,39 @@ Set enabled and suthorize the address demo.wehostvoip.io. When recording the ins
 
 ![image](https://user-images.githubusercontent.com/4958202/153880754-4883710f-32e1-4309-9ea7-36a4e6ef719d.png)
 
-Set calls per second to 1, calling plan, authorize only your own country. 
+Set calls per second to 1, calling plan, authorize only your own country. No credentials required the IP is authorized. 
+
+Step 4 - Create a new carrier
+
+Now you will need to create a carrier and gateway in the WeHostVoIP side. When creating a gateway add the outbound host name as the address and from domain. 
+
+![image](https://user-images.githubusercontent.com/4958202/153885655-f3177ec0-57b1-48b6-9f21-ad1ff8babc96.png)
+
+After adding the gateway associate to the carrier. In the description set AWS-CHIME
+
+![image](https://user-images.githubusercontent.com/4958202/153885698-6088271c-b336-4bd2-828d-db32c99f18e1.png)
+
+Once the termination is created you should be able to call other numbers in US. 
+
+Step 5 - Assign a phone number
+
+AWS does not support receiving calls without a Caller ID in the E164 format. So let's assing a new nember. Allocate a phone number on AWS-CHIME on
+
+calling=>phone number management. 
+
+Allocate one number and associate it with your connector. 
+
+![image](https://user-images.githubusercontent.com/4958202/153887696-6bd46880-d549-4a6d-b2a5-0cf6247f926e.png)
+
+
+
+Step 5 - Change the carrier in the Tenant
+
+To use this carrier, you have to change it in the tenant configuration (ISP interface)
+
+![image](https://user-images.githubusercontent.com/4958202/153886446-6ed243e5-34f3-4f08-abf9-2ef5a0168025.png)
+
+
+Step 6 - Try to make an external call 
+
+
