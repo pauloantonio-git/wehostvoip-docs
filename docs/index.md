@@ -1,12 +1,14 @@
-# Introduction #
+# WeHostVoIP Documentation
 
-**WeHostVoIP** is a Cloud Phone System designed for ISPs to sell cloud Phone Systems. It works as a companion for Google Apps and Microsoft Teams. You may also use WeHostVoIP as a standalone IP PBX System. As a project decision we incentivize our users to use their favorite collaboration tools. What we will provide is the phone system connected to your own SIP trunk or connected directy to the cloud. This avoids effort duplication and multiple conference and chat interfaces. Also it reduces the high costs associated with telephpny offers from Microsoft and Google.  
+This is the documentation project for WeHostVoIP. 
 
-[Architecture](architecture.md)\
-[Creating your own ISP](isp.md)\
-[ISP configuration](isp_configuration.md)\
-[Creating Tenants](tenants.md)\
-[Tenant Configuration](tenant_configuration.md)\
-[Dashboard](dashboard.md)
+The order to check the documentation is:
+
+1. [Getting Started with WeHostVoIP](docs/getting_started.md)
+2. [Connection your ISP to a real carrier](docs/connecting_wehostvoip.md)
+3. [Handling incoming calls with a Visual Plan]()
+4. [Synchronizing your accounts with GSuite]()
+5. [Synchronizing your accounts with Office 365]()
+
 
 
