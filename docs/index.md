@@ -1,4 +1,4 @@
-# WeHostVoIP Documentation
+# Getting Started
 
 This is the documentation project for WeHostVoIP. 
 
