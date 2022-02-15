@@ -24,7 +24,7 @@ It may take up to 1 hour to verify the domain. Please, be patient.
 
 ## Step 5 - In the tenant's interface on subscribers, click on _synch_
 
-# Synchroning Accounts with GSUITE
+# Synchroning Accounts with Azure AD
 
 To synchronize an account with GSUITE you need to create and verify the same domain as the one used on GSUITE. 
 
@@ -53,6 +53,8 @@ It may take up to 1 hour to verify the domain. Please, be patient.
 ![image](https://user-images.githubusercontent.com/4958202/154161631-9d39aa1c-efe4-4d2b-8f5c-c380537dfdd3.png)
 
 Choose Azure and discover subscribers. You need to consent logged in with a user with admin rights to the domain on Azure AD. 
+
+
 
 After discovering the users the system will allow you to set the defaults and even to edit account by account
 
