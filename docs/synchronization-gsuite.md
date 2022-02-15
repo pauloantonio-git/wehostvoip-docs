@@ -2,11 +2,11 @@
 
 To synchronize an account with GSUITE you need to create and verify the same domain as the one used on GSUITE. 
 
-## Step 1 In the ISP interface, create the domain.
+## Step 1 - In the ISP interface, create the domain.
 
 ![image](https://user-images.githubusercontent.com/4958202/154160552-78ae940a-9998-4505-8e04-6aa9661ffb2e.png)
 
-## Step 2 Add the TXT record to your DNS server, ask your domain administrator (webmaster) if you don't know how to do it
+## Step 2 - Add the TXT record to your DNS server, ask your domain administrator (webmaster) if you don't know how to do it
 
 ![image](https://user-images.githubusercontent.com/4958202/154160604-ba986da2-4b6f-4616-8236-1215b3d23028.png)
 
@@ -14,15 +14,15 @@ Example in Cloudflare, each domain service has a different way to add the TXT re
 
 ![image](https://user-images.githubusercontent.com/4958202/154160810-98f2d0e1-1884-42a5-b783-3bc6249fb953.png)
 
-## Step 3 Verify the domain
+## Step 3 - Verify the domain
 
 It may take up to 1 hour to verify the domain. Please, be patient. 
 
-## Step 4  Change the domain of your tenant.
+## Step 4 - Change the domain of your tenant.
 
 ![image](https://user-images.githubusercontent.com/4958202/154161592-d7f3e886-261d-42f1-add8-d43a89fe4e18.png)
 
-## Step 5 In the tenant's interface on subscribers, click on _synch_
+## Step 5 - In the tenant's interface on subscribers, click on _synch_
 
 ![image](https://user-images.githubusercontent.com/4958202/154161631-9d39aa1c-efe4-4d2b-8f5c-c380537dfdd3.png)
 
