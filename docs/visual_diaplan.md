@@ -1,4 +1,4 @@
-# Visual Dialplan #
+# Visual Dialplan
 
 The Visual Diaplan is one of the greatest differentiators of the system. It is simple to use and vizualize. The call will go thru node by node doing all the telephony functions such as playback, ivr and others.  
 
