@@ -7,6 +7,7 @@ The order to check the documentation is:
 3. [Handling incoming calls with a Visual Plan](handling_incoming_calls.md)
 4. [Synchronizing your accounts with GSuite](synchronization-gsuite.md)
 5. [Synchronizing your accounts with Office 365](synchronization-azure.md)
+6. [Billing customers](billing.md)
 
 
 
