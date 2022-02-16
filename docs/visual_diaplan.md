@@ -75,8 +75,11 @@ The main options of this block:
   * ssml – Describes a <mark> element from the SSML input text. For more information, see Generating Speech from SSML Documents. 
 
 # Playback
+
 Playback is a block to play a messages or generate a message based on text to speech. 
 
+![image](https://user-images.githubusercontent.com/4958202/154244210-75716333-a5d6-41da-8fe3-1ba8b0461a97.png)
+ 
 The main options of this block are:
 
 * Type - If _Audio Library_ where you can select a pre-recorded audio or text-to-speech if you prefer to generate the text on the fly.
@@ -91,6 +94,8 @@ The main options of this block are:
 # Say
 The say application will use the pre-recorded sound files to read or say various things like dates, times, digits, etc.
 
+ ![image](https://user-images.githubusercontent.com/4958202/154244296-89646e52-62fd-4923-9ef6-cd8bf05c4bd4.png)
+ 
 It can read digits, numbers, dollar amounts, date/time values, IP addresses, spell out alpha-numeric text, including punctuation marks, and so on.
 
 ## type 	
@@ -125,14 +130,22 @@ It can read digits, numbers, dollar amounts, date/time values, IP addresses, spe
 
 The subscriber box, delivers the message to a subscriber or subscribers. If you define more than one subscriber, the application will ring both subscribers simultaneously like a ring-group. If you prefer you can chack the box serialize and the system will ring the subscribers in sequence sych as a hunt-group. 
 
+![image](https://user-images.githubusercontent.com/4958202/154244438-d2d0ecbf-b8b3-4ace-8369-c18c0ed950e2.png) 
+ 
 # Timerouting
 
-Timerouting is a simple box it has only two exits. It uses the business hours defined previously to determine if it is on busines hours or not. When you create the visual dialplan you have to specify the business hours. 
+Timerouting is a simple box it has only two exits. It uses the business hours defined previously to determine if it is on busines hours or not. When you create the visual dialplan you have to specify the business hours.
 
+![image](https://user-images.githubusercontent.com/4958202/154244562-779c1693-80f2-4a39-9f23-7d361c2e786f.png)
+ 
 # Voicemail 
 
-One of the applications people hate most is the voicemail. We have made our voicemail as simple as possible. The voicemail box simply recirds a message and send it attached to the email of the user. There are no extensions to dial or password to recover, no maintenance of the mailbox. This system was designed to be simple and we have simplified the voicemail. 
+We have made our voicemail as simple as possible. The voicemail box simply recirds a message and send it attached to the email of the user. There are no extensions to dial or password to recover, no maintenance of the mailbox. This system was designed to be simple and we have simplified the voicemail. 
 
+![image](https://user-images.githubusercontent.com/4958202/154244925-68531c53-3af1-46b7-9e8f-413ee5c41dc3.png)
+ 
 # Visual Plan
 
 The visual plan box allows you to call other visual plan  from the same interface. 
+ 
+![image](https://user-images.githubusercontent.com/4958202/154244993-3ec1aec1-7cb9-4a81-be66-73e0557facda.png)
