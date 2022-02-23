@@ -221,6 +221,7 @@ Dial 2092488700, you should receive a funny message. As we are using the test ga
 
 To test an incoming call is a little harder. If you have added a real carrier and you have real dids, the process is very easy. However for the purposes of this Getting Started Guide we are going to use a softphone connected to the test gateway to connect to our SBC demo.wehostvoip.io. 
 
+For more details, check our document [Handling Incoming Calls](handling-incoming-calls.md)
 
 
 
