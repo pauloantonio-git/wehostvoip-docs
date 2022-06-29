@@ -3,4 +3,4 @@ site_name: WeHostVoIP Docs
 theme:
     name: readthedocs
     locale: en
-    navigation_depth: 0
+    navigation_depth: 1
