@@ -29,11 +29,11 @@ There are several steps to start an operation:
 
 There are three different consoles for WeVoIP.
 
-ISP Console - https://uc.wehostvoip.io
-Tenant Console - https://uc.wehostvoip.io/tenants
+ISP Console - https://isp.wehostvoip.io
+Tenant Console - https://console.wehostvoip.io
 Phone Console - https://phone.wehostvoip.io
 
-In the ISP console (https://uc.wehostvoip.io) you will configure the master plans for the Cloud PBX provider. You are going to attach carriers, create service plans, adjust normalization rules for numbers and many tasks you will have to do only once. 
+In the ISP console (https://isp.wehostvoip.io) you will configure the master plans for the Cloud PBX provider. You are going to attach carriers, create service plans, adjust normalization rules for numbers and many tasks you will have to do only once. 
 
 ![wehostvoip-isp](https://user-images.githubusercontent.com/4958202/153396697-236b7908-6c70-4fe8-8357-c304e5be5841.png)
 
@@ -47,7 +47,7 @@ Finally the phone interface is a WebRTC where you can make or receive calls. The
 
 ## Step 1 Creating a new ISP
 
-To create a new ISP, you have to start the signup process in the portal uc.wehostvoip.io
+To create a new ISP, you have to start the signup process in the portal isp.wehostvoip.io
 
 ![wehostvoip-signup-page](https://user-images.githubusercontent.com/4958202/153394573-98053c2c-de18-4f68-bb54-8a3854d751b8.png)
 
@@ -197,7 +197,7 @@ Once you login you should see a green circle in the upper right hand corner.
 
 This is the free client for WeHostVoIP. If you prefer to use a full Unified Communication phone, contact us for an upgrade plan, as the UC phone is charged separately. Branding a new UC phone takes a lot of steps including the registration for a DUNS number and publishing on Apple and Google Store. These features are not covered in the Getting Started. 
 
-You can only use the softphone if you are using Windows 7 or later. Download the softphone from https://uc.wehostvoip.io/downloads/wevoip-3.20.7002.exe, extract and run the file 
+You can only use the softphone if you are using Windows 7 or later. Download the softphone from https://isp.wehostvoip.io/downloads/wevoip-3.20.7002.exe, extract and run the file 
 
 After the installation, log in using the username and **softphone** password. 
 
