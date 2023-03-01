@@ -29,8 +29,8 @@ There are several steps to start an operation:
 
 There are three different consoles for WeVoIP.
 
-ISP Console - https://isp.wehostvoip.io
-Tenant Console - https://console.wehostvoip.io
+ISP Console - https://isp.wehostvoip.io \
+Tenant Console - https://console.wehostvoip.io \
 Phone Console - https://phone.wehostvoip.io
 
 In the ISP console (https://isp.wehostvoip.io) you will configure the master plans for the Cloud PBX provider. You are going to attach carriers, create service plans, adjust normalization rules for numbers and many tasks you will have to do only once. 
