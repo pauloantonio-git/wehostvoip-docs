@@ -147,7 +147,7 @@ To create a tenant is very simple, you start by adding a domain. It may be a sub
 
 ![image](https://user-images.githubusercontent.com/4958202/153424359-8802e406-cc17-4cbf-80a2-57f716180184.png)
 
-After specifying the domain, you have to specify the Customer, Carrier, Admins, Dialplan and session border controllers. It is a very quick form. Each ISP should negotiate its own SBC for operations depending on the expected traffic. For demo purposes you can use demo.wehostvoip.io in the port 61110. This SBC limits the duration of the calls in 30 seconds and calls per second to 1 call each 30s. It is enough to test and see if WeHostVoIP fits your business model. 
+After specifying the domain, you have to specify the Customer, Carrier, Admins, Dialplan and session border controllers. It is a very quick form. Each ISP should negotiate its own SBC for operations depending on the expected traffic. You can use the shared SBC for US sbc-us.wehostvoip.io:60110. Thsi SBC is configured as an outbound proxy for all calls.  
 
 ## Step 9 Accessing your tenant 
 
