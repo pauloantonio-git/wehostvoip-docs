@@ -1,5 +1,7 @@
 This document describes how to connect your ISP to Plivo. The interconnection to a SIP trunk needs you full attention in all of its nuances. 
 
+Link to Youtube video of this configuration:  https://youtu.be/wtDsjSnvd5I
+
 # 1. Planning
 
 ![image](https://user-images.githubusercontent.com/4958202/230954433-c29afe00-bbba-47bb-ad59-786bb04a8d61.png)
