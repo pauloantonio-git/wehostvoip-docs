@@ -56,7 +56,7 @@ Add the first gateway as the FQDN provided by PLIVO.
 
 Add a second gateway using the address **18.214.109.129**, this is an alias to all PLIVO address ranges. It will authorize inbound calls from PLIVO. Usually for normal trunks you could have simply added the SIP trunk gateways, but in this cases there are entire ranges of addresses. 
 
-## 3.2 Add the Caller ID, I haighly recommend you to assigna a number on PLIVO and use here its Caller_ID.
+## 3.2 Add the Caller ID, I highly recommend you to assigna a number on PLIVO and use here its Caller_ID.
 
 ## 3.3 Normalization - Not required
 
