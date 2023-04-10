@@ -54,7 +54,7 @@ It is very simple to add a carrier and a PLIVO gateway.
 
 Add the gateway as the FQDN provided by PLIVO. 
 
-## 3.2 Add the Caller ID, I highly recommend you to assigna a number on PLIVO and use here its Caller_ID.
+## 3.2 Add the Caller ID, I highly recommend you to assign a number on PLIVO and use here its Caller_ID.
 
 ## 3.3 Normalization - Not required
 
