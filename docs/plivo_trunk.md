@@ -34,8 +34,8 @@ We are going to use the IP ACL from PLIVO
 
 Create an IP address for your SBC. The shared SBCs have the follogin addresses. (Ping the addresses by the name, they may change with time)
 
-sbc-us.wehostvoip.io -> Located in United States ->   172.174.24.204
-sbc-br.wehostvoip.io -> Located in Brazil ->          20.226.38.150
+sbc-us.wehostvoip.io -> Located in United States ->   172.174.24.204\
+sbc-br.wehostvoip.io -> Located in Brazil ->          20.226.38.150\
 sbc-in.wehostvoip.io -> Located in India  ->          20.204.231.235
 
 ## 2.3 Credentials list 
@@ -52,9 +52,9 @@ It is very simple to add a carrier and a PLIVO gateway.
 
 Add the first gateway as the FQDN provided by PLIVO. 
 
-** There is an important trick here **
+**There is an important trick here**
 
-Add a second gateway using the address 18.214.109.129, this is an alias to all PLIVO address ranges. It will authorize inbound calls from PLIVO. Usually for normal trunks you could have simply added the SIP trunk gateways, but in this cases there are entire ranges of addresses. 
+Add a second gateway using the address **8.214.109.129**, this is an alias to all PLIVO address ranges. It will authorize inbound calls from PLIVO. Usually for normal trunks you could have simply added the SIP trunk gateways, but in this cases there are entire ranges of addresses. 
 
 ## 3.2 Add the Caller ID, I haighly recommend you to assigna a number on PLIVO and use here its Caller_ID.
 
