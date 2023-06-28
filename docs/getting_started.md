@@ -74,7 +74,7 @@ Now, there are important parameters here. The most important parameter is the na
 Now you can customize your logos and colors. \
 To access this configuration again, click on the options menu in the top right corner, Settings, Theme.
 
-![wehostvoip-4th-onboarding](https://user-images.githubusercontent.com/4958202/225347049-1820c862-72c8-4fd6-9784-c755d364ed7b.png)
+![wehostvoip-4th-onboarding](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/ba583d69-b5de-444e-a934-f2f70c6c5e9f)
 
 After finishing, you should choose a plan. The plan prices are in dollars. Please contact us if you wish to have a plan in Brazilian reais.
 
