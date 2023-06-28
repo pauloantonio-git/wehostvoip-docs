@@ -157,19 +157,23 @@ Most of the configuration you have done until now are made only once, except for
 
 To create a tenant is very simple, you start by adding a domain. It may be a subdomain of your namespace or the customer domain previously created and verified. Let's use customer1 here as the domain. 
 
-![image](https://user-images.githubusercontent.com/4958202/153424359-8802e406-cc17-4cbf-80a2-57f716180184.png)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/f30bf22e-12d5-4bb5-8f15-c64d3d3e50a3)
 
-After specifying the domain, you have to specify the Customer, Carrier, Admins, Dialplan and session border controllers. It is a very quick form. Each ISP should negotiate its own SBC for operations depending on the expected traffic. You can use the shared SBC for US sbc-us.wehostvoip.io:60110. Thsi SBC is configured as an outbound proxy for all calls.  
+After specifying the domain, you have to specify the Customer, Carrier, Admins, Dialplan and session border controllers. It is a very quick form. Each ISP should negotiate its own SBC for operations depending on the expected traffic. You can use the shared SBC for US **sbc-us.wehostvoip.io:60110**. Thsi SBC is configured as an outbound proxy for all calls.  
 
 ## Step 9 Accessing your tenant 
 
-Click on the view button at the end of the row (close to the delete and edit buttons). You will get to the Tenant Interface like below. 
+Click on the view button at the end of the row (close to the delete and edit buttons). 
 
-![wehostvoip-tenant-login](https://user-images.githubusercontent.com/4958202/153426130-c153085f-194c-4adb-8391-a01bf98be08d.png)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/10087d6e-622c-48dc-8ab3-ad3446035db9)
+
+You will get to the Tenant Interface like below. 
+
+![wehostvoip-tenant-login](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/df35a28b-051f-45c7-98ca-5f9e6579c2f7)
 
 Once the login is completed, you will access the interface below. 
 
-![image](https://user-images.githubusercontent.com/4958202/153426266-4b21a276-114a-404f-bfb6-1f55a32618d7.png)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/3c786c78-bc59-4812-813d-308af788fd42)
 
 ## Step 10 Creating subscribers
 
