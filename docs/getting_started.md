@@ -64,7 +64,8 @@ Now you have to go to your email and click on the email confirmation link. Once 
 
 Provide a Full Name and password for the username and press next
 
-![wehostvoip-2nd-onboarding](https://user-images.githubusercontent.com/4958202/225346612-222882e7-c803-421e-9940-63aa3c1d6f91.png)
+![wehostvoip-2nd-onboarding](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/b41347f5-999d-4b42-93e9-889c6e351e2e)
+
 
 Now, there are important parameters here. The most important parameter is the namespace. When you start using wehostvoip, to login in the system you will need your own namespace. Please choose a namespace and write down the name you will need in the future. Also important is the currency. Fill the rest of the information and press next.
 
