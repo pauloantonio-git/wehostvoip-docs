@@ -242,7 +242,7 @@ Just call Alice and Bob by their names. You may use also their aliases alice (10
 
 To avoid fraud, subscribers are not allowed by default to make PSTN calls. You will have to authorize the countries or prefixes to enable outbound calls. We've made this process very easy. In our cas we are adding USA. When you select USA it selects all area codes from the NANPA belonging to the USA and does not load Caribbean destinations frequently used for fraud. 
 
-![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/9d6c33b4-f11f-42c5-b1e3-e7dbe4fdd8df)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/48a527b3-1b7d-4baa-be45-1fa84cf72901)
 
 ![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/dd257eb8-1862-47c7-ab51-c402de853564)
 
