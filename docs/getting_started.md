@@ -89,17 +89,17 @@ When creating a carrier, the first step is to create the gateway
 
 ![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/31849e1b-12e0-43a9-b7ef-b90cd9ca7d26)
 
-**Name**: When creating a gateway, the first thing you add is the name, for example, "primary".
-**Address**: Next, add the address and port of the gateway, for example: sipa.flagonc.com:5600.
-**Display**: Display is the text part of the caller ID, also known as the FROM display.
-**Outbound Strip**: Remove N digits from the E.164 or original number before sending it to the gateway.
-**Outbound Prefix**: Add this string to the left side of the number before sending it to the gateway, occurs after the strip.
-**Inbound Strip**: Remove N digits from the number arriving at the SBC's inbound port.
-**Inbound Prefix**: Add this string to the left side of the incoming number before entering the SBC, occurs after the strip.
-**Source Domain**: Also known as the From domain, often required for authentication, usually the gateway's address.
-**Source User**: Also known as the From user, it is the caller ID and is often used for call validation. Check with your carrier.
-**Apply to**: Used only for the outbound number. Apply the rules to the internal E.164 number or the originally dialed number.
-**Attributes**: Optional attributes, reserved for technical support.
+**Name**: When creating a gateway, the first thing you add is the name, for example, "primary". \
+**Address**: Next, add the address and port of the gateway, for example: sipa.flagonc.com:5600. \
+**Display**: Display is the text part of the caller ID, also known as the FROM display. \
+**Outbound Strip**: Remove N digits from the E.164 or original number before sending it to the gateway. \
+**Outbound Prefix**: Add this string to the left side of the number before sending it to the gateway, occurs after the strip. \
+**Inbound Strip**: Remove N digits from the number arriving at the SBC's inbound port. \
+**Inbound Prefix**: Add this string to the left side of the incoming number before entering the SBC, occurs after the strip. \
+**Source Domain**: Also known as the From domain, often required for authentication, usually the gateway's address. \
+**Source User**: Also known as the From user, it is the caller ID and is often used for call validation. Check with your carrier. \
+**Apply to**: Used only for the outbound number. Apply the rules to the internal E.164 number or the originally dialed number. \
+**Attributes**: Optional attributes, reserved for technical support. \
 **Add PAI**: Add the P-Asserted-Identity. This may be necessary for some carriers.
 
 After filling in the information, save the gateway and save the carrier. If you need two gateways, create both before saving.
