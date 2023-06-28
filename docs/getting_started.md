@@ -172,7 +172,8 @@ After specifying the domain, you have to specify the Customer, Carrier, Admins, 
 
 Click on the view button at the end of the row (close to the delete and edit buttons). 
 
-![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/10087d6e-622c-48dc-8ab3-ad3446035db9)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/2df5d860-8c0f-4402-a675-317052fc559a)
+
 
 You will get to the Tenant Interface like below. 
 
