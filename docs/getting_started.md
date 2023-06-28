@@ -87,16 +87,22 @@ Now it is time to specify where will you terminate your calls. For this getting 
 
 When creating a carrier, the first step is to create the gateway
 
-![image](https://user-images.githubusercontent.com/4958202/153416460-90f10b2b-5adf-4121-afb3-324f10d3a225.png)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/31849e1b-12e0-43a9-b7ef-b90cd9ca7d26)
 
-It really depends on the carrier terminating your calls. You may have to strip some numbers or prefix numbers before you deliver to your carrier. The gateway configuration allows you to do it. The authentication has to be per IP, we do not send digest credentials based on username and password. 
+**Name**: When creating a gateway, the first thing you add is the name, for example, "primary".
+**Address**: Next, add the address and port of the gateway, for example: sipa.flagonc.com:5600.
+**Display**: Display is the text part of the caller ID, also known as the FROM display.
+**Outbound Strip**: Remove N digits from the E.164 or original number before sending it to the gateway.
+**Outbound Prefix**: Add this string to the left side of the number before sending it to the gateway, occurs after the strip.
+**Inbound Strip**: Remove N digits from the number arriving at the SBC's inbound port.
+**Inbound Prefix**: Add this string to the left side of the incoming number before entering the SBC, occurs after the strip.
+**Source Domain**: Also known as the From domain, often required for authentication, usually the gateway's address.
+**Source User**: Also known as the From user, it is the caller ID and is often used for call validation. Check with your carrier.
+**Apply to**: Used only for the outbound number. Apply the rules to the internal E.164 number or the originally dialed number.
+**Attributes**: Optional attributes, reserved for technical support.
+**Add PAI**: Add the P-Asserted-Identity. This may be necessary for some carriers.
 
-After creating the gateway, associate it to the carrier and save. 
-
-![image](https://user-images.githubusercontent.com/4958202/153416615-365c5086-f762-48a5-8de5-66a15547cbe9.png)
-
-See, very quick, carrier is created
-
+After filling in the information, save the gateway and save the carrier. If you need two gateways, create both before saving.
 
 ## Step 3 Creating a service plan
 
@@ -106,11 +112,12 @@ Press, create service plan to start creating a plan.
 
 Name your first service plan Default. 
 
-![wehostvoip-service-plan-1](https://user-images.githubusercontent.com/4958202/153400844-7030dc71-5e6b-4dc4-ad17-34096eb36f41.png)
+![wehostvoip-service-plan-1](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/4b9cae38-9f23-4b79-9662-cc22e3721f86)
 
+Select the Carrier and Dialing Plan. \
 For the next two menus below, check the box "No Service Deck", "No Rate Deck"
 
-![service-plan-3](https://user-images.githubusercontent.com/4958202/153401140-0272f11b-7129-42e2-917a-b4545615d1b3.png)
+![service-plan-3](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/18fc8b74-d05a-4bd9-aa84-170fe3d673ad)
 
 Then press Create Service Plan, do not leave the page without creating the service plan. 
 
@@ -118,9 +125,9 @@ Then press Create Service Plan, do not leave the page without creating the servi
 
 After creating a service plan, you can now create a customer. Just press the customer menu on the right side and press create to create a new customer. Customer is one of your customers who will buy a PBX service. Before you can create a tenant, you have to create a customer.  
 
-![wehostvoip-customer-01](https://user-images.githubusercontent.com/4958202/153402853-53436e6e-0d48-4e10-a6c8-e13993d0be3b.png)
+![wehostvoip-customer-01](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/7606475d-ae82-4184-803b-c5a476160a22)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/abf42801-a9ff-42df-8cf4-8b6fe97a868f)
 
-There are important things in this menu. The maximum number of subscribers and the maximum number of concurrent calls. You can control how many licenses each user is using from you. You have to select the service plan and all the other fields are self explanatory. 
 
 ## Step 5 Creating a Dialplan
 
