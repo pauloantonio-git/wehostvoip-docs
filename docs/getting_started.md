@@ -8,9 +8,9 @@ There are several steps to start an operation:
 
 * [WeHostVoIP Concepts](#wehostvoip-concepts) 
 * [Step 1 - Creating a new ISP](#step-1-creating-a-new-isp)
-* [Step 2 - Creating a service plan](#step-2-creating-a-service-plan)
-* [Step 3 - Creating a customer](#step-3-creating-a-customer)
-* [Step 4 - Creating a carrier](#step-4-creating-a-carrier)
+* [Step 2 - Creating a carrier](#step-2-creating-a-carrier)
+* [Step 3 - Creating a service plan](#step-3-creating-a-service-plan)
+* [Step 4 - Creating a customer](#step-4-creating-a-customer)
 * [Step 5 - Creating a Dial Plan](#step-5-creating-a-dialplan)
 * [Step 6 - Add numbers to the inventory](#step-6-add-numbers-to-the-inventory)
 * [Step 7 - Creating Domains](#step-7-creating-domains)
@@ -77,31 +77,7 @@ Once you have finished you will be able to see the ISP interface
 
 ![isf-after-onboarding](https://user-images.githubusercontent.com/4958202/153399595-0cd0dd4a-94a8-4167-8aa7-e2ab0adcd66c.png)
 
-## Step 2 Creating a service plan
-
-The service plan is the heart of the system. You will be able to change your customers using a prepaid or postpaid system. You can start with something as simple as charge per month and later create more sophisticated plans to charge per leg or per prefix. In the getting started we are going to create a simple plan to charge only a monthly fee. 
-
-Press, create service plan to start creating a plan. 
-
-Name your first service plan Default. 
-
-![wehostvoip-service-plan-1](https://user-images.githubusercontent.com/4958202/153400844-7030dc71-5e6b-4dc4-ad17-34096eb36f41.png)
-
-For the next two menus below, check the box "No Service Deck", "No Rate Deck"
-
-![service-plan-2](https://user-images.githubusercontent.com/4958202/153401140-0272f11b-7129-42e2-917a-b4545615d1b3.png)
-
-Then press Create Service Plan, do not leave the page without creating the service plan. 
-
-## Step 3 Creating a customer
-
-After creating a service plan, you can now create a customer. Just press the customer menu on the right side and press create to create a new customer. Customer is one of your customers who will buy a PBX service. Before you can create a tenant, you have to create a customer.  
-
-![wehostvoip-customer-01](https://user-images.githubusercontent.com/4958202/153402853-53436e6e-0d48-4e10-a6c8-e13993d0be3b.png)
-
-There are important things in this menu. The maximum number of subscribers and the maximum number of concurrent calls. You can control how many licenses each user is using from you. You have to select the service plan and all the other fields are self explanatory. 
-
-## Step 4 Creating a carrier
+## Step 2 Creating a carrier
 
 Now it is time to specify where will you terminate your calls. For this getting started we are going to terminate calls using a test gateway called sipa.flagonc.com. You may test incoming calls registering a phone in the same server. I will provide instructions at the right point. For now let's create a gateway and a carrier. A carrier can have more than one gateway for redundancy, but the system does no route per prefix. This is the function of the ISP softswitch or gateway terminating the calls. We didn't want to have redundancy on these functions. 
 
@@ -116,6 +92,31 @@ After creating the gateway, associate it to the carrier and save.
 ![image](https://user-images.githubusercontent.com/4958202/153416615-365c5086-f762-48a5-8de5-66a15547cbe9.png)
 
 See, very quick, carrier is created
+
+
+## Step 3 Creating a service plan
+
+The service plan is the heart of the system. You will be able to change your customers using a prepaid or postpaid system. You can start with something as simple as charge per month and later create more sophisticated plans to charge per leg or per prefix. In the getting started we are going to create a simple plan to charge only a monthly fee. 
+
+Press, create service plan to start creating a plan. 
+
+Name your first service plan Default. 
+
+![wehostvoip-service-plan-1](https://user-images.githubusercontent.com/4958202/153400844-7030dc71-5e6b-4dc4-ad17-34096eb36f41.png)
+
+For the next two menus below, check the box "No Service Deck", "No Rate Deck"
+
+![service-plan-3](https://user-images.githubusercontent.com/4958202/153401140-0272f11b-7129-42e2-917a-b4545615d1b3.png)
+
+Then press Create Service Plan, do not leave the page without creating the service plan. 
+
+## Step 4 Creating a customer
+
+After creating a service plan, you can now create a customer. Just press the customer menu on the right side and press create to create a new customer. Customer is one of your customers who will buy a PBX service. Before you can create a tenant, you have to create a customer.  
+
+![wehostvoip-customer-01](https://user-images.githubusercontent.com/4958202/153402853-53436e6e-0d48-4e10-a6c8-e13993d0be3b.png)
+
+There are important things in this menu. The maximum number of subscribers and the maximum number of concurrent calls. You can control how many licenses each user is using from you. You have to select the service plan and all the other fields are self explanatory. 
 
 ## Step 5 Creating a Dialplan
 
