@@ -59,7 +59,8 @@ Once you press signup, the system will ask you to provide an email for confirmat
 
 Now you have to go to your email and click on the email confirmation link. Once you have pressed the link you will see the ISP configuration link. 
 
-![wehostvoip-1st-onbording](https://user-images.githubusercontent.com/4958202/225346430-34c9e499-5ecf-41ff-8d64-9e3e1441a540.png)
+![wehostvoip-1st-onbording](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/240d08db-b9bb-4a58-84c5-6f90e3c6a912)
+
 
 Provide a Full Name and password for the username and press next
 
