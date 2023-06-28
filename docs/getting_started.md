@@ -118,12 +118,12 @@ Press, create service plan to start creating a plan.
 
 Name your first service plan Default. 
 
-![wehostvoip-service-plan-1](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/4b9cae38-9f23-4b79-9662-cc22e3721f86)
+![wehostvoip-service-plan-1](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/4cc6da45-e4ed-4753-bf2b-ddb23e578ec7)
 
 Select the Carrier and Dialing Plan. \
 For the next two menus below, check the box "No Service Deck", "No Rate Deck"
 
-![service-plan-3](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/18fc8b74-d05a-4bd9-aa84-170fe3d673ad)
+![service-plan-3](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/c5cc36c5-8e96-4ab3-8de1-60124076030c)
 
 Then press Create Service Plan, do not leave the page without creating the service plan. 
 
