@@ -35,21 +35,21 @@ Phone Console - https://phone.wehostvoip.io
 
 In the ISP console (https://isp.wehostvoip.io) you will configure the master plans for the Cloud PBX provider. You are going to attach carriers, create service plans, adjust normalization rules for numbers and many tasks you will have to do only once. 
 
-![wehostvoip-isp](https://user-images.githubusercontent.com/4958202/153396697-236b7908-6c70-4fe8-8357-c304e5be5841.png)
+![wehostvoip-isp](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/e5707f3e-e2f6-4583-9897-5c722cbaf81f)
 
 The tenant console is really the PBX interface, you will create one or many Tenants per customer. There are no limits on the number of tenants created. 
 
-![wehostvoip-subscribers](https://user-images.githubusercontent.com/4958202/153419253-5f00900a-9c67-4615-994c-d8b091ced713.png)
+![wehostvoip-subscribers](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/b968a34b-8a32-4ca1-bda7-9974c6fc2ffd)
 
 Finally the phone interface is a WebRTC where you can make or receive calls. The system also supports almost any SIP phone or device.
 
-![image](https://user-images.githubusercontent.com/4958202/153306639-b3a04b17-c07e-49af-bb0d-7898f25b1499.png)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/d43509c0-dd56-4162-b7a0-e112fa468e5f)
 
 ## Step 1 Creating a new ISP
 
-To create a new ISP, you have to start the signup process in the portal isp.wehostvoip.io
+To create a new ISP, you have to start the signup process in the portal [isp.wehostvoip.io](https://isp.wehostvoip.io)
 
-![wehostvoip-signup-page](https://user-images.githubusercontent.com/4958202/153394573-98053c2c-de18-4f68-bb54-8a3854d751b8.png)
+![wehostvoip-signup-page](https://user-images.githubusercontent.com/4958202/225346057-b9e16205-acaf-437b-a137-d54ed41cbcaa.png)
 
 Once you press signup, the system will ask you to provide an email for confirmation
 
@@ -57,25 +57,29 @@ Once you press signup, the system will ask you to provide an email for confirmat
 
 Now you have to go to your email and click on the email confirmation link. Once you have pressed the link you will see the ISP configuration link. 
 
-![wehostvoip-1st-onbording](https://user-images.githubusercontent.com/4958202/153395980-67dcd005-d5c5-4acb-a1ff-256649f46613.png)
+![wehostvoip-1st-onbording](https://user-images.githubusercontent.com/4958202/225346430-34c9e499-5ecf-41ff-8d64-9e3e1441a540.png)
 
 Provide a Full Name and password for the username and press next
 
-![wehostvoip-2nd-onboarding](https://user-images.githubusercontent.com/4958202/153396350-df093e03-9dbd-45a9-b795-f84bdf99c170.png)
+![wehostvoip-2nd-onboarding](https://user-images.githubusercontent.com/4958202/225346612-222882e7-c803-421e-9940-63aa3c1d6f91.png)
 
 Now, there are important parameters here. The most important parameter is the namespace. When you start using wehostvoip, to login in the system you will need your own namespace. Please choose a namespace and write down the name you will need in the future. Also important is the currency. Fill the rest of the information and press next.
 
-![wehostvoip-3rd-onboarding](https://user-images.githubusercontent.com/4958202/153397395-95d4c7e1-645b-4c67-a409-0db6f95fd563.png)
+![wehostvoip-3rd-onboarding](https://user-images.githubusercontent.com/4958202/225346784-c093b3df-5872-4cb4-bbb2-f3b8eca72a85.png)
 
-Just fill your contact data and press next
+Now you can customize your logos and colors. \
+To access this configuration again, click on the options menu in the top right corner, Settings, Theme.
 
-![wehostvoip-4th-onboarding](https://user-images.githubusercontent.com/4958202/153398003-c74bfb17-f734-445d-ad53-459d3525d466.png)
+![wehostvoip-4th-onboarding](https://user-images.githubusercontent.com/4958202/225347049-1820c862-72c8-4fd6-9784-c755d364ed7b.png)
 
-Now you can customize your logos and colors. After doing it, press validate to check if you have filled all the required data. 
+After finishing, you should choose a plan. The plan prices are in dollars. Please contact us if you wish to have a plan in Brazilian reais.
+
+![image](https://user-images.githubusercontent.com/4958202/225347424-1d5fab24-5fbd-4cc7-b4dd-70e3226dbcb1.png)
 
 Once you have finished you will be able to see the ISP interface
 
-![isf-after-onboarding](https://user-images.githubusercontent.com/4958202/153399595-0cd0dd4a-94a8-4167-8aa7-e2ab0adcd66c.png)
+![isf-after-onboarding](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/e5707f3e-e2f6-4583-9897-5c722cbaf81f)
+
 
 ## Step 2 Creating a carrier
 
