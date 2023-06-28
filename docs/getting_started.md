@@ -69,7 +69,7 @@ Provide a Full Name and password for the username and press next
 
 Now, there are important parameters here. The most important parameter is the namespace. When you start using wehostvoip, to login in the system you will need your own namespace. Please choose a namespace and write down the name you will need in the future. Also important is the currency. Fill the rest of the information and press next.
 
-![wehostvoip-3rd-onboarding](https://user-images.githubusercontent.com/4958202/225346784-c093b3df-5872-4cb4-bbb2-f3b8eca72a85.png)
+![wehostvoip-3rd-onboarding](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/ec11cf9a-fe3c-4981-8386-8ba20844cf3f)
 
 Now you can customize your logos and colors. \
 To access this configuration again, click on the options menu in the top right corner, Settings, Theme.
