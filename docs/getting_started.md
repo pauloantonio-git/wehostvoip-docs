@@ -107,6 +107,9 @@ When creating a carrier, the first step is to create the gateway
 
 After filling in the information, save the gateway and save the carrier. If you need two gateways, create both before saving.
 
+![image](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/84df174a-8d61-4feb-9476-d1526eca13e1)
+
+
 ## Step 3 Creating a service plan
 
 The service plan is the heart of the system. You will be able to change your customers using a prepaid or postpaid system. You can start with something as simple as charge per month and later create more sophisticated plans to charge per leg or per prefix. In the getting started we are going to create a simple plan to charge only a monthly fee. 
