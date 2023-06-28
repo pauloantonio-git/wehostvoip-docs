@@ -79,6 +79,8 @@ To access this configuration again, click on the options menu in the top right c
 After finishing, you should choose a plan. The plan prices are in dollars. Please contact us if you wish to have a plan in Brazilian reais.
 
 ![image](https://user-images.githubusercontent.com/4958202/225347424-1d5fab24-5fbd-4cc7-b4dd-70e3226dbcb1.png)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/3aa92643-becf-45da-b2e6-4effee759d1e)
+
 
 Once you have finished you will be able to see the ISP interface
 
