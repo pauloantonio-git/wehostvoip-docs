@@ -163,7 +163,8 @@ Most of the configuration you have done until now are made only once, except for
 
 To create a tenant is very simple, you start by adding a domain. It may be a subdomain of your namespace or the customer domain previously created and verified. Let's use customer1 here as the domain. 
 
-![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/f30bf22e-12d5-4bb5-8f15-c64d3d3e50a3)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/ce8afaae-45ea-481f-ae4e-b4762a0fbc67)
+
 
 After specifying the domain, you have to specify the Customer, Carrier, Admins, Dialplan and session border controllers. It is a very quick form. Each ISP should negotiate its own SBC for operations depending on the expected traffic. You can use the shared SBC for US **sbc-us.wehostvoip.io:60110**. Thsi SBC is configured as an outbound proxy for all calls.  
 
