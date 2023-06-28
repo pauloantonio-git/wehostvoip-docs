@@ -177,11 +177,12 @@ Click on the view button at the end of the row (close to the delete and edit but
 
 You will get to the Tenant Interface like below. 
 
-![wehostvoip-tenant-login](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/df35a28b-051f-45c7-98ca-5f9e6579c2f7)
+![wehostvoip-tenant-login](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/b5517cbd-077c-4a2a-bf25-c6d5eb68103a)
 
 Once the login is completed, you will access the interface below. 
 
-![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/3c786c78-bc59-4812-813d-308af788fd42)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/4b695ba8-43a0-4ec6-b018-ea3a2aebe019)
+
 
 ## Step 10 Creating subscribers
 
