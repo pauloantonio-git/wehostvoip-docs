@@ -250,8 +250,6 @@ To avoid fraud, subscribers are not allowed by default to make PSTN calls. You w
 
 After adding the codes/countries, click on save.
 
-![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/0c60c9c1-c211-4de9-9700-10f49c8637f9)
-
 ![image](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/c03e0f48-4a80-48e6-b10e-7b297743277e)
 
 
