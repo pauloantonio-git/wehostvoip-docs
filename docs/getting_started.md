@@ -131,9 +131,9 @@ Then press Create Service Plan, do not leave the page without creating the servi
 
 After creating a service plan, you can now create a customer. Just press the customer menu on the right side and press create to create a new customer. Customer is one of your customers who will buy a PBX service. Before you can create a tenant, you have to create a customer.  
 
-![wehostvoip-customer-01](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/7606475d-ae82-4184-803b-c5a476160a22)
-![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/abf42801-a9ff-42df-8cf4-8b6fe97a868f)
+![wehostvoip-customer-01](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/ce8151df-fce9-4b0b-815a-d2769e0cfc47)
 
+![image](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/5b58d238-5457-46cf-abaa-3d5a6b35e9e2)
 
 ## Step 5 Creating a Dialplan
 
