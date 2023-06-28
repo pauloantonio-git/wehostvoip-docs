@@ -197,7 +197,8 @@ Now, in the subscriber table, let's create two users, Alice and Bob. There are m
 * Maximum Concurrent Calls - "Maximum amount of concurrent calls"
 * Dial timeout - "How much to wait for the user to pickup a call"
 
-![image](https://user-images.githubusercontent.com/4958202/153440169-18a7170a-763a-470e-b725-1dceda01489a.png)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/4cdf6ecc-c0ec-46c8-91ee-c271354b03bb)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/fe437b4c-3c0a-4fe3-a76e-34618be64f14)
 
 **Don't forget to add a password for SIP and for the Softphone, write down the password you will need the password ahead**
 
@@ -205,7 +206,7 @@ Now, in the subscriber table, let's create two users, Alice and Bob. There are m
 
 To register Alice in the webphone, just go to the url https://phone.wehostvoip.io and add the name and password. At this point we still cannot log with Google or Azure. To do it it is required to register and verify a domain. You will only be able to log with Google or AzureAd if you have a synchronized domain. We have a special chapter for this. 
 
-![image](https://user-images.githubusercontent.com/4958202/153724987-44d9ba93-87b1-44d6-b186-f5059bfdb3d2.png)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/eb58b0c0-52fd-4467-9e46-31008c3957b5)
 
 Once you login you should see a green circle in the upper right hand corner.
 
@@ -217,7 +218,12 @@ You can only use the softphone if you are using Windows 7 or later. Download the
 
 After the installation, log in using the username and **softphone** password. 
 
-![image](https://user-images.githubusercontent.com/4958202/153725448-8a30f3bf-c243-46b4-8fd7-d2bd97c47749.png)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/9d01901c-a650-48f7-9d41-beede9144bb8)
+
+![imagem](https://user-images.githubusercontent.com/4958202/153725448-8a30f3bf-c243-46b4-8fd7-d2bd97c47749.png)
+
+[Using another softphone/phone](configure-softphones-ip_phones.md)
+
 
 ## Step 13 Make a call between phones
 
@@ -227,7 +233,15 @@ Just call Alice and Bob by their names. You may use also their aliases alice (10
 
 To avoid fraud, subscribers are not allowed by default to make PSTN calls. You will have to authorize the countries or prefixes to enable outbound calls. We've made this process very easy. In our cas we are adding USA. When you select USA it selects all area codes from the NANPA belonging to the USA and does not load Caribbean destinations frequently used for fraud. 
 
-![image](https://user-images.githubusercontent.com/4958202/153725725-aba5e01b-2a59-4c56-8357-9b3f7391933b.png)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/9d6c33b4-f11f-42c5-b1e3-e7dbe4fdd8df)
+
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/dd257eb8-1862-47c7-ab51-c402de853564)
+
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/89a2e946-a539-477d-9966-fcfbc36ae479)
+
+After adding the codes/countries, click on save.
+
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/0c60c9c1-c211-4de9-9700-10f49c8637f9)
 
 ## Step 15 Make a call to an external destination
 
