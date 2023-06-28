@@ -246,12 +246,14 @@ To avoid fraud, subscribers are not allowed by default to make PSTN calls. You w
 
 ![image](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/b86e8cc5-acd9-4802-8be4-d08332bdcc91)
 
-
-![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/89a2e946-a539-477d-9966-fcfbc36ae479)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/5193e8ff-f2ab-48cd-913a-3f581e23189a)
 
 After adding the codes/countries, click on save.
 
 ![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/0c60c9c1-c211-4de9-9700-10f49c8637f9)
+
+![image](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/c03e0f48-4a80-48e6-b10e-7b297743277e)
+
 
 ## Step 15 Make a call to an external destination
 
