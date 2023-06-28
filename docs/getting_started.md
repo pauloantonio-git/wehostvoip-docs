@@ -244,7 +244,7 @@ To avoid fraud, subscribers are not allowed by default to make PSTN calls. You w
 
 ![image](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/48a527b3-1b7d-4baa-be45-1fa84cf72901)
 
-![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/dd257eb8-1862-47c7-ab51-c402de853564)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/b315d371-028e-4852-a890-4447d88d3a3f)
 
 ![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/89a2e946-a539-477d-9966-fcfbc36ae479)
 
