@@ -90,7 +90,7 @@ Now it is time to specify where will you terminate your calls. For this getting 
 
 When creating a carrier, the first step is to create the gateway
 
-![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/31849e1b-12e0-43a9-b7ef-b90cd9ca7d26)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/e495076e-8408-4bcf-b9df-cc0c88ab4b6c)
 
 **Name**: When creating a gateway, the first thing you add is the name, for example, "primary". \
 **Address**: Next, add the address and port of the gateway, for example: sipa.flagonc.com:5600. \
