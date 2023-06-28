@@ -206,8 +206,8 @@ Now, in the subscriber table, let's create two users, Alice and Bob. There are m
 * Maximum Concurrent Calls - "Maximum amount of concurrent calls"
 * Dial timeout - "How much to wait for the user to pickup a call"
 
-![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/4cdf6ecc-c0ec-46c8-91ee-c271354b03bb)
-![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/fe437b4c-3c0a-4fe3-a76e-34618be64f14)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/7f3838fc-9bb7-45ae-812e-5837f915ee02)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/a8c23954-1517-466a-9efb-4a852ee52690)
 
 **Don't forget to add a password for SIP and for the Softphone, write down the password you will need the password ahead**
 
