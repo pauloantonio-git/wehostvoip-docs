@@ -24,7 +24,7 @@ markdown==3.3.7
     #   mkdocstrings
     #   pymdown-extensions
 
-mkdocs-glightbox==3.2.0
+mkdocs-glightbox
 
 markdown-include
 
