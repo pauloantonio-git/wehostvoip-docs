@@ -1,6 +1,7 @@
 # Getting Started to WeHostVoIP
 
-![Image title](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/c422468f-bd2a-44bf-91d1-60142340a0ba){ width="500px" data-caption-position="center"}
+![Image title](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/c422468f-bd2a-44bf-91d1-60142340a0ba){ width="500px" style="float:right"}
+
 
 
 ![wehostvoip-isp](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/c422468f-bd2a-44bf-91d1-60142340a0ba){ loading=lazy }
