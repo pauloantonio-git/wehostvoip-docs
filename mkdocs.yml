@@ -4,8 +4,8 @@ theme:
     name: readthedocs
     locale: en
     navigation_depth: 1
-    favicon: https://www.wehostvoip.io/wp-content/uploads/2023/03/cropped-Favicon_WHV-32x32.png
-    logo: https://www.wehostvoip.io/wp-content/uploads/2021/07/wehostvoip.png
+    favicon: cropped-Favicon_WHV-32x32.png
+    logo: wehostvoip.png
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
