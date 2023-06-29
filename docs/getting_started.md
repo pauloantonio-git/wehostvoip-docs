@@ -1,15 +1,5 @@
 # Getting Started to WeHostVoIP
 
-
-![Image title](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/c422468f-bd2a-44bf-91d1-60142340a0ba){ width="100%" style="display: block;margin-left: auto;margin-right: auto;"}
-
-
-![Image title](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/c422468f-bd2a-44bf-91d1-60142340a0ba){ width="500px" style="float:right"}
-
-
-![wehostvoip-isp](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/c422468f-bd2a-44bf-91d1-60142340a0ba){ loading=lazy }
-
-
 WeHostVoIP or WeVoIP as we like to call ourselves, is a Multi-ISP, Multi-Tenant Cloud PBX created specially for Communication Service Providers. 
 
 Following this guide, you will be able to start a Cloud PBX operation in a few hours. There are several steps to prepare for an operation.
@@ -45,8 +35,7 @@ Phone Console - https://phone.wehostvoip.io
 
 In the ISP console (https://isp.wehostvoip.io) you will configure the master plans for the Cloud PBX provider. You are going to attach carriers, create service plans, adjust normalization rules for numbers and many tasks you will have to do only once. 
 
-![wehostvoip-isp](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/c422468f-bd2a-44bf-91d1-60142340a0ba){ loading=lazy }
-
+![Image title](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/c422468f-bd2a-44bf-91d1-60142340a0ba){ width="100%" style="display: block;margin-left: auto;margin-right: auto;"}
 
 
 The tenant console is really the PBX interface, you will create one or many Tenants per customer. There are no limits on the number of tenants created. 
@@ -67,7 +56,7 @@ To create a new ISP, you have to start the signup process in the portal [isp.weh
 
 Once you press signup, the system will ask you to provide an email for confirmation
 
-![wehostvoip-email-confirmation](https://user-images.githubusercontent.com/4958202/153394860-fc61c76d-fe05-475b-9d4f-898d3a478770.png)
+![wehostvoip-email-confirmation](https://user-images.githubusercontent.com/4958202/153394860-fc61c76d-fe05-475b-9d4f-898d3a478770.png){ width="50%" style="display: block;margin-left: auto;margin-right: auto;"}
 
 Now you have to go to your email and click on the email confirmation link. Once you have pressed the link you will see the ISP configuration link. 
 
