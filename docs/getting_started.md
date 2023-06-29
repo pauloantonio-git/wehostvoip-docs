@@ -35,7 +35,7 @@ Phone Console - https://phone.wehostvoip.io
 
 In the ISP console (https://isp.wehostvoip.io) you will configure the master plans for the Cloud PBX provider. You are going to attach carriers, create service plans, adjust normalization rules for numbers and many tasks you will have to do only once. 
 
-![wehostvoip-isp](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/c422468f-bd2a-44bf-91d1-60142340a0ba){ width="300" }
+![wehostvoip-isp](https://github.com/pauloantonio-git/wehostvoip-docs/assets/104862214/c422468f-bd2a-44bf-91d1-60142340a0ba){ loading=lazy }
 
 The tenant console is really the PBX interface, you will create one or many Tenants per customer. There are no limits on the number of tenants created. 
 
