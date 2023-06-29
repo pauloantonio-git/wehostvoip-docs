@@ -23,8 +23,11 @@ markdown==3.3.7
     #   mkdocs-autorefs
     #   mkdocstrings
     #   pymdown-extensions
-markdown-include==0.6.0
-    # via -r docs/requirements.in
+
+mkdocs-glightbox==3.2.0
+
+markdown-include
+
 markupsafe==2.1.1
     # via
     #   jinja2
