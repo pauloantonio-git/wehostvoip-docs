@@ -22,7 +22,7 @@ plugins:
        touchNavigation: true
        loop: false
        effect: zoom
-       slide_effect: slide
+       slide_effect: none
        width: auto
        height: auto
        zoomable: true
