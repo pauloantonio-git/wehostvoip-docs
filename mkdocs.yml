@@ -19,7 +19,7 @@ markdown_extensions:
 
 plugins:
    - glightbox:
-       touchNavigation: true
+       touchNavigation: false
        loop: false
        effect: zoom
        slide_effect: none
