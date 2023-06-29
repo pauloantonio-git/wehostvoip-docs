@@ -4,7 +4,7 @@ theme:
     name: readthedocs
     locale: en
     navigation_depth: 1
-
+    logo: cropped-Favicon_WHV-32x32.png
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
